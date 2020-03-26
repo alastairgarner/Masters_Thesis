@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="288.02889"
-     inkscape:cy="263.67503"
+     inkscape:cx="409.75227"
+     inkscape:cy="266.20041"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="3200"
      inkscape:window-height="1660"
      inkscape:window-x="0"
-     inkscape:window-y="66"
+     inkscape:window-y="1146"
      inkscape:window-maximized="1"
      inkscape:snap-page="true"
      fit-margin-top="0"
@@ -220,7 +220,7 @@
        cy="114.97439"
        cx="46.28838"
        id="circle897"
-       style="opacity:1;fill:#ff8080;fill-opacity:0.94117647;stroke:#000000;stroke-width:0.354;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.354;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        id="text901"
        y="116.68339"
@@ -808,17 +808,17 @@
        transform="matrix(0.02536301,0.10157017,-0.09465602,0.02721565,196.56933,45.669253)" />
     <text
        id="text1003"
-       y="7.5957408"
+       y="10.001166"
        x="185.97159"
        style="font-style:normal;font-weight:normal;font-size:4.53903055px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11196202"
        xml:space="preserve"><tspan
          style="text-align:center;text-anchor:middle;stroke-width:0.11196202"
-         y="7.5957408"
+         y="10.001166"
          x="185.97159"
          id="tspan1001"
          sodipodi:role="line">Premotor/Motor</tspan><tspan
          style="text-align:center;text-anchor:middle;stroke-width:0.11196202"
-         y="13.269529"
+         y="15.674955"
          x="185.97159"
          sodipodi:role="line"
          id="tspan1005">Domain</tspan></text>
@@ -829,25 +829,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.53903055px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#fffffe;fill-opacity:1;stroke:none;stroke-width:0.11196202"
-       x="-86.319061"
+       x="-44.031582"
        y="202.34525"
        id="text1022"
        transform="rotate(-90)"><tspan
          id="tspan1020"
          sodipodi:role="line"
-         x="-86.319061"
+         x="-44.031582"
          y="202.34525"
          style="text-align:center;text-anchor:middle;fill:#fffffe;fill-opacity:1;stroke-width:0.11196202">Longitudinal</tspan></text>
     <text
        transform="rotate(-90)"
        id="text1028"
        y="202.71538"
-       x="-43.893059"
+       x="-86.180542"
        style="font-style:normal;font-weight:normal;font-size:4.53903055px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.11196202"
        xml:space="preserve"><tspan
          style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.11196202"
          y="202.71538"
-         x="-43.893059"
+         x="-86.180542"
          sodipodi:role="line"
          id="tspan1026">Transverse</tspan></text>
     <g
@@ -953,7 +953,7 @@
          y="53.028637"
          x="22.239517"
          sodipodi:role="line"
-         id="tspan1114">et al. (20??)</tspan><tspan
+         id="tspan1114">et al. (2017)</tspan><tspan
          style="text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke-width:0.11196202"
          y="57.220436"
          x="22.239517"
@@ -968,7 +968,7 @@
          y="65.604042"
          x="22.239517"
          sodipodi:role="line"
-         id="tspan1120">et al. (20??)</tspan></text>
+         id="tspan1120">et al. (2018)</tspan></text>
     <text
        id="text1126"
        y="88.818237"
@@ -1031,6 +1031,17 @@
          sodipodi:role="line"
          x="22.239517"
          y="113.23177"
-         style="text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke-width:0.11196202">et al. (20??)</tspan></text>
+         style="text-align:end;text-anchor:end;fill:#000000;fill-opacity:1;stroke-width:0.11196202">et al. (2017)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.53471994px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11196202"
+       x="173.70161"
+       y="63.400139"
+       id="text1945"><tspan
+         sodipodi:role="line"
+         id="tspan1943"
+         x="173.70161"
+         y="63.400139"
+         style="stroke-width:0.11196202">A02e,g</tspan></text>
   </g>
 </svg>

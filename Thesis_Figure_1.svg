@@ -1635,9 +1635,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="687.40151"
-     inkscape:cy="490.60387"
+     inkscape:zoom="1.4"
+     inkscape:cx="446.34669"
+     inkscape:cy="546.00333"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52336,5 +52336,77 @@
          style=""
          id="path15812" />
     </g>
+    <rect
+       y="-57.163754"
+       x="18.565428"
+       height="1.7372159"
+       width="1.7372159"
+       id="rect9852"
+       style="opacity:1;fill:#1b9e77;fill-opacity:1;stroke:none;stroke-width:0.08389053;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117647" />
+    <rect
+       style="opacity:1;fill:#d95f02;fill-opacity:1;stroke:none;stroke-width:0.08389053;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117647"
+       id="rect9854"
+       width="1.7372159"
+       height="1.7372159"
+       x="18.565428"
+       y="-54.038143" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06462843"
+       x="21.684868"
+       y="-55.613514"
+       id="text9870"><tspan
+         sodipodi:role="line"
+         id="tspan9868"
+         x="21.684868"
+         y="-55.613514"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.06462843">Group 1</tspan></text>
+    <text
+       id="text9874"
+       y="-52.487904"
+       x="21.684868"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06462843"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.06462843"
+         y="-52.487904"
+         x="21.684868"
+         id="tspan9872"
+         sodipodi:role="line">Group 2</tspan></text>
+    <text
+       id="text9878"
+       y="-49.362301"
+       x="21.684868"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06462843"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.06462843"
+         y="-49.362301"
+         x="21.684868"
+         id="tspan9876"
+         sodipodi:role="line">Group 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.06462843"
+       x="21.684868"
+       y="-46.236691"
+       id="text9882"><tspan
+         sodipodi:role="line"
+         id="tspan9880"
+         x="21.684868"
+         y="-46.236691"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.58513737px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.06462843">Group 4</tspan></text>
+    <rect
+       style="opacity:1;fill:#e7298a;fill-opacity:1;stroke:none;stroke-width:0.08389053;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117647"
+       id="rect9892"
+       width="1.7372159"
+       height="1.7372159"
+       x="18.565428"
+       y="-50.91254" />
+    <rect
+       y="-47.786926"
+       x="18.565428"
+       height="1.7372159"
+       width="1.7372159"
+       id="rect9894"
+       style="opacity:1;fill:#66a61e;fill-opacity:1;stroke:none;stroke-width:0.08389053;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94117647" />
   </g>
 </svg>
