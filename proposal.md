@@ -145,29 +145,20 @@ The purpose of this study is to understand how different premotor interneuron po
 
 ## Aims and hypothesis
 
-**Aim 1:** To identify novel premotor interneurons population implicated in the performance of nocifensive behaviours in *Drosophila melanogaster* larva.
+**Aim 1:** Identify novel premotor interneuron populations implicated in the performance of nocifensive behaviours in *Drosophila melanogaster* larva. 
 
-**Hypothesis 1:** Certain discrete populations of premotor interneurons are necessary for the performance of different components of the noficensive behaviour repertoire. Exogenous activation of these neuron populations will perturb noficensive behaviour across a breadth of quantifiable behavioural metrics. These include, but are not limited to, the likelihood of rolling, time-spent rolling and rolling amplitude, as well as postural metrics like crabspeed and body curvature.
+**Hypothesis 1.1:** Manipulation of premotor neuron populations necessary for noficensive behaviour will perturb performance of said behaviour. These affects should be quantifiable with metrics describing rolling behaviour as well as posture.
 
-​	
-
-**Aim 2:** Characterise phenotypic contribution of candidate neurons populations to nocifensive behaviour and basal locomotion.
-
-**Hypothesis 2:** Premotor interneuons implicated in rolling behaviours will show the same phenotype independent of which higher-order neuron population is used to activate the nocifensive repertoire. Additionally these neurons may be important for the performance of non-nocifensive locomotor behaviour. If so, genetic activation or inhibition of these neurons might affect change in basal locomotor metrics (e.g. crawl speed and peristaltic frequency).
+**Hypothesis 1.2:** Established behavioural quantification methods of different design may show discrepencies in scoring nocifensive behaviours. Genotypes presenting robust phenotypic changes should be detectable regardless of the quantitative method used.
 
 ​	
 
-**Aim 3:** Assess the phenotypic effect of premotor neurons with both complementary and contrasting motor cohort recruitment on nocifensive behaviour.
+**Aim 2:** Characterise the relationship between anatomical connectivity and locomotor involvement across different premotor interneuron populations.
 
-**Hypothesis 3:** Premotor populations that innervate similar motor neuron cohorts, with the same sign of neurotransmission  (excitatory/inhibitory), will affect similar components of the nocifensive behaviour repertoire. Perturbing the function of these neurons will manifest in a phenotypically similar manner. Premotor neuron populations that innervate different motor cohorts will have different effects on the performance of nocifensive behaviour. 
+**Hypothesis 2.1:** Manipulation of premotor neurons implicated in nocifensive behaviours will also disrupt basal locomotion.  These affects should be quantifiable with metrics describing crawling and turning behaviours.
 
-​	
+**Hypothesis 2.2:** Premotor populations that innervate similar motor neuron cohorts, with the same sign of neurotransmission (excitatory/inhibitory), will be necessary for the performance of similar locomotor patterns.
 
-**Aim 4:** Evaluate the relative performance of different behaviour detection algorithms for quantifying rolling behaviour.
-
-**Hypothesis 4:** Defining discrete behaviours (e.g. rolling) is subjective, so data processing pipelines of different design may report said behaviours differently. Thus depending on the algorithm used, the phenotypic differences observed with our candidate lines might manifest differently. Comparing the performance of these algorithms against a ground truth will elucidate the best pipeline for future analyses.
-
-​	
 
 # Methodology
 ## Fly strains

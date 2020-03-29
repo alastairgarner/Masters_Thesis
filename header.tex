@@ -1,0 +1,36 @@
+%
+\usepackage{fontspec}
+\usepackage{setspace}
+\doublespacing
+
+%\usepackage{lineno}
+%\linenumbers
+
+\usepackage[dvipsnames]{xcolor}
+%\definecolors{LightBlue}
+
+%\usepackage{ulem}
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\sffamily\Large\bfseries\color{black}}
+  {\thesection}{1em}{}[\titlerule]
+
+\usepackage{titlesec}
+\titleformat{\subsection}
+  {\normalfont\sffamily\bfseries}
+  {\thesubsection}{1em}{}
+
+\usepackage{titlesec}
+\titleformat{\subsubsection}
+  {\normalfont\sffamily\bfseries}
+  {\thesubsubsection}{1em}{}
+
+\titlespacing*{\section} {0pt}{2ex}{1ex}
+\titlespacing*{\subsection} {0pt}{0ex}{0ex}
+\titlespacing*{\subsubsection}{0pt}{0ex}{0ex}
+
+\newcommand{\sectionbreak}{\clearpage}
+
+%\usepackage{sectsty}
+%\sectionfont{\clearpage}
+
