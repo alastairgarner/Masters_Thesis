@@ -86,21 +86,23 @@ Two interestisg groups with distinct phenotypes
 
 # TNT
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_TNT@r_LED30_30s2x15s30s#n#n#n@x29/1816-4232-4248-ttp2/timeseries_rolls.svg width=50%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-4248-ttp2/timeseries_rolls.svg width=50%/>
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-ttp2/timeseries_rolls.svg />
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_TNT@r_LED30_30s2x15s30s#n#n#n@x29/1816-4232-4248-ttp2/timeseries_curve_norm.svg width=50%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-4248-ttp2/timeseries_curve_norm.svg width=50%/>
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-ttp2/timeseries_crabspeed_norm.svg />
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_TNT@r_LED30_30s2x15s30s#n#n#n@x29/1816-4232-4248-ttp2/timeseries_crabspeed_norm.svg width=50%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-4248-ttp2/timeseries_crabspeed_norm.svg width=50%/>
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-ttp2/timeseries_curve_norm.svg />
 
 
 
-TNT							impTNT
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/4232-ttp2/timeseries_rolls.svg />
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_TNT@r_LED30_30s2x15s30s#n#n#n@x29/1816-4232-4248-ttp2/grouped/rolls_duration_mean_30_45.svg width=25%><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-4248-ttp2/grouped/rolls_duration_mean_30_45.svg width=25%>
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/4232-ttp2/timeseries_crabspeed_norm.svg />
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_TNT@r_LED30_30s2x15s30s#n#n#n@x29/1816-4232-4248-ttp2/grouped/crabspeed_mean_30_35.svg width=25%><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-4248-ttp2/grouped/crabspeed_mean_30_35.svg width=25%>
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/4232-ttp2/timeseries_curve_norm.svg />
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_TNT@r_LED30_30s2x15s30s#n#n#n@x29/1816-4232-4248-ttp2/grouped/curve_mean_30_35.svg width=25%><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-4248-ttp2/grouped/curve_mean_30_35.svg width=25%>
+***
+
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-ttp2/grouped/rolls_duration_sum_30_45.svg width=33% /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-ttp2/grouped/crabspeed_mean_30_45.svg width=33% /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20180615_20180619@72F11_lexAop_Chrimson_UAS_impTNT@r_LED30_30s2x15s30s#n#n#n@x31/1816-4232-ttp2/grouped/curve_mean_30_45.svg width=33% />
 
 
 
@@ -120,7 +122,7 @@ TNT							impTNT
 
 UAS-TNTe
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/816n-4232-ttp2/grouped/peran_amplitude_mean_15_30.svg width=25%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/816n-4232-ttp2/grouped/peran_frequency_mean_15_30.svg width=25%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/816n-4232-ttp2/grouped/curve_mean_15_30.svg width=25%/>
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/816n-4232-ttp2/grouped/peran_amplitude_mean_15_30.svg width=33%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/816n-4232-ttp2/grouped/peran_frequency_mean_15_30.svg width=33%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/816n-4232-ttp2/grouped/curve_mean_15_30.svg width=33%/>
 
 
 
@@ -132,23 +134,15 @@ curve: 0 | -0.103 | -0.591
 
 
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20171212_20171213@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x45/1816-4232-4248-ttp2/grouped/peran_amplitude_mean_30_45.svg width=25%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/816n-4232-ttp2/grouped/peran_frequency_mean_15_30.svg width=25%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20171212_20171213@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x45/1816-4232-4248-ttp2/grouped/curve_mean_30_45.svg width=25%/>
-
-
-
-Maybe effect of stimulating 4232
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20171212_20171213@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x45/1816-4232-ttp2/grouped/peran_amplitude_mean_30_45.svg width=33%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20171212_20171213@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x45/1816-4232-ttp2/grouped/peran_frequency_mean_30_45.svg width=33%/><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20171212_20171213@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x45/1816-4232-ttp2/grouped/curve_mean_30_45.svg width=33%/>
 
 
 
 ***
 
-<img src=/home/alastair/OneDrive/projects/Thesis/GMR_SS01817.png width=50%/><img src=/home/alastair/OneDrive/projects/Thesis/SS04232.png width=50%/>
+<img src=A02e_anatomy.png width=50%/><img src=4232_anatomy.png width=50%/>
 
 ***
-
-Intro to A02s
-
-
 
 
 
@@ -182,23 +176,25 @@ Show muscle connectivity
 
 
 
+***
+
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20190422_20190531@UAS_Chrimson_attp18_72F11@r_LED05_30s2x15s30s#n#n#n@x81/1792-816n-817n-2175-4189-ttp2/grouped/rolls_start_mean_30_45.svg width=25% /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20190422_20190531@UAS_Chrimson_attp18_72F11@r_LED05_30s2x15s30s#n#n#n@x81/1792-816n-817n-2175-4189-ttp2/grouped/rolls_duration_sum_30_45.svg width=25% /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20190422_20190531@UAS_Chrimson_attp18_72F11@r_LED05_30s2x15s30s#n#n#n@x81/1792-816n-817n-2175-4189-ttp2/grouped/curve_mean_30_45.svg width=25% /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20190422_20190531@UAS_Chrimson_attp18_72F11@r_LED05_30s2x15s30s#n#n#n@x81/1792-816n-817n-2175-4189-ttp2/grouped/crabspeed_mean_30_45.svg width=25% />
+
 Generate summary figs
 
 ***
 
 # Role in basal locomotion
 
-All in one plot
-
 ## UAS_Chrimson
 
-/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181201_20181203@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x73
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181201_20181203@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x73/1792-816n-817n-2175-4189-ttp2/grouped/peran_amplitude_mean_30_45.svg width=33% /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181201_20181203@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x73/1792-816n-817n-2175-4189-ttp2/grouped/peran_frequency_mean_30_45.svg width=33%><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181201_20181203@UAS_Chrimson@r_LED30_30s2x15s30s#n#n#n@x73/1792-816n-817n-2175-4189-ttp2/grouped/curve_mean_30_45.svg width=33%>
 
 
 
 ## UAS_TNT
 
-<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/1D08-1321-1792-816n-817n-2175-4189-ttp2/grouped/peran_amplitude_mean_15_30.svg />
+<img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/1792-816n-817n-2175-4189-ttp2/grouped/peran_amplitude_mean_15_30.svg /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/1792-816n-817n-2175-4189-ttp2/grouped/peran_frequency_mean_15_30.svg /><img src=/home/alastair/OneDrive/projects/JAABA_featExtract/figures/20181219_20181221@UAS_TNTe@i_1000hzV1_30s2x15s30s#n#n#n@x60/1792-816n-817n-2175-4189-ttp2/grouped/curve_mean_15_30.svg />
 
 
 

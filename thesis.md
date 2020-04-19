@@ -1,19 +1,8 @@
 ---
 # Front matter
 title:  "Identification of neural premotor substrates affecting nocifensive behaviour in Drosophila larvae"
-author: |
-	| Alastair Garner 
-	| Supervisor: Dr. Tomoko Ohyama
-	| Integrated Program in Neuroscience
-date: | 
-	| McGill University, Montreal
-	| March 2020
-	|
-	|
-	|
-	| A thesis submitted to McGill University in partial fulfilment of the requirements of the degree of Master of Science
-	| 
-	| $\copyright$ Alastair Garner 2020
+author: Alastair Garner 
+date: April 2020
 documentclass: article
 
 # Bibliography
@@ -39,13 +28,58 @@ fontsize:
 	- 12pt
 ---
 
+# Abstract {-}
+
+Insert abstract here
+
+
+
+# Résumé{-}
+
+Insérez le résumé ici
+
+
+
+
+# Acknowledgements {-}
+
+Insert acknowledgements here
+
+
+
+# Author Contributions {-}
+
+Alastair Garner^a\*^ and Dr. Tomoko Ohyama^b\*^ conceived the project and maintained fly stocks. Alastair Garner performed and analysed all behavioural and imaging experiments. Jiayi Zhu^a^ generated some fly stocks and also offered invaluable discussion. Yassine Rahmouni^a^ and Dr Jean-Baptiste Masson^c,d^ assisted in setting up behavioural pipelines in the lab. Novel behavioural classifiers were trained by Shua Noh^b^. Some fly stocks were generously donated by Dr James W Truman^d^.
+
+The material of this thesis, including text and figures, were written and produced by Alastair Garner and edited by Dr Tomoko Ohyama.
+
+\*[alastairgarner@outlook.com](alastairgarner@outlook.com), [tomoko.ohyama@mcgill.ca](tomoko.ohyama@mcgill.ca)
+
+
+
+\vfill
+
+
+
+^a^Integrated Program in Neuroscience, McGill University, Montréal, Canada
+
+^b^Department of Biology, McGill University, Montréal, Canada
+
+^c^Decision and Bayesian Computation, Neuroscience Department, Institut Pasteur & CNRS, Paris, France
+
+^d^Howard Hughes Medical Institute Janelia Research Campus, Ashburn, VA, USA
+
+
+
+
+
 # Introduction
 
-Neural circuitry must coordinate numerous aspects of a given behaviour, activating distinct motor cohorts in a stereotyped sequence, whilst integrating sensory feedback to modulate the performance of the behaviour. Understanding how the innate wiring of neural circuits underpins the generation of these coordinated motor patterns offers insight into general neural mechanisms for rhythmicity, patterning and action selection. This has motivated research, particularly in basal locomotor modes, into quadrapedal walking in the cat[@Kiehn2006a,@Nishimaru2009,@Buford1990] and mouse[@Crone2008e,@Grillner2009b,@Zagoraiou2009,@Dougherty2013,@Goetz2015,@Bikoff2016], swimming in fish[@Kimura2013a,@Song2016], leech[@Friesen2007] and lamprey[@Grillner2003,@Mullins2011], as well as crawling in *Drosophila* larva[@Heckscher2012,@Clark2018a,@Kohsaka2017] and *C. elegans*[@Wen2012a,@Piggott2011,@Zhen2015].
+Neural circuitry must coordinate numerous aspects of a given behaviour, activating distinct motor cohorts in a stereotyped sequence, whilst integrating sensory feedback to modulate the performance of the behaviour. Understanding how the innate wiring of neural circuits underpins the generation of these coordinated motor patterns offers insight into general neural mechanisms for rhythmicity, patterning and action selection. This has motivated research, particularly in basal locomotor modes, into quadrapedal walking in the cat[@Kiehn2006a,@Nishimaru2009,@Buford1990] and mouse[@Crone2008e,@Grillner2009b,@Zagoraiou2009,@Dougherty2013,@Goetz2015,@Bikoff2016], swimming in fish[@Kimura2013a,@Song2016], leech[@Friesen2007] and lamprey[@Grillner2003,@Mullins2011], as well as crawling in *Drosophila* larvae[@Heckscher2012,@Clark2018a,@Kohsaka2017] and *C. elegans*[@Wen2012a,@Piggott2011,@Zhen2015].
 
-*Drosophila* larva are an excellent model system for studying locomotion given their genetic tractability, readily quantifiable behaviour[@Ohyama2013,@Kabra2013] and fully described somatic musculature[@Bate1990]. Each hemisegment of the ventral nerve cord (VNC, analogous to the vertebrate spinal cord) contains 250 interneurons[@Rickert2011] which are hardwired to coordinated different behavioural modes. Of these, the nocifensive behavioural repertoire of a *Drosophila* larva includes a corkscrew-like "rolling" behaviour[@Tracey2003] that demonstrates a distinct motor profile to that for peristaltic crawling[@Heckscher2012]. How distinct circuits are wired to coordinate mutually exclusive locomotor patterns through a common musculature remains an unanswered question.
+*Drosophila* larvae are an excellent model system for studying locomotion given their genetic tractability, readily quantifiable behaviour[@Ohyama2013,@Kabra2013] and fully described somatic musculature[@Bate1990]. Each hemisegment of the ventral nerve cord (VNC, analogous to the vertebrate spinal cord) contains 250 interneurons[@Rickert2011] which are hardwired to coordinated different behavioural modes. Of these, the nocifensive behavioural repertoire of a *Drosophila* larva includes a corkscrew-like "rolling" behaviour[@Tracey2003] that demonstrates a distinct motor profile to that for peristaltic crawling[@Heckscher2012]. How distinct circuits are wired to coordinate mutually exclusive locomotor patterns through a common musculature remains an unanswered question.
 
-Here we seek to identify novel premotor interneuron components for the performance for nocifensive behaviour in *Drosophila* larva. We will characterise the phenotypic contribution of these neurons to both escape behaviours and basal locomotion, to address whether premotor neurons exhibit behaviour specificity or promiscuity. Finally we will assay premotor neurons with similar anatomical connectivity to determine whether perturbation of common motor cohorts results in comparable phenotypes.
+Here we seek to identify novel premotor interneuron components for the performance for nocifensive behaviour in *Drosophila* larvae. We will characterise the phenotypic contribution of these neurons to both escape behaviours and basal locomotion, to address whether premotor neurons exhibit behaviour specificity or promiscuity. Finally we will assay premotor neurons with similar anatomical connectivity to determine whether perturbation of common motor cohorts results in comparable phenotypes.
 
 
 
@@ -68,23 +102,19 @@ In addition, genetically encoded calcium indicators (GECIs) have been developed 
 
 
 
-While much effort focuses on the adult fly, research on larval *Drosophila* has gained popularity for their reduced behavioural repertoire and comparatively small number of neurons (ca. 10,000, versus 100,000 in the adult). On top of this, larva have a translucent cuticle, simplifying the application of optogenetics and imaging of neuronal activity. Analytical tools have been adapted from *Caenorhabditis elegans* research[@Swierczek2011] to allow for the development of high-throughput behavioural assays in *Drosophila* larva[@Ohyama2013]. Likewise robust methods for behavioural quantification have also been developed based on user-curated behavioural definitions[@Ohyama2013], unsupervised hierarchical clustering[@Vogelstein2014] and supervised machine learning techniques[@Kabra2013,@Jovanic2017]. 
+While much effort focuses on the adult fly, research on larval *Drosophila* has gained popularity for their reduced behavioural repertoire and comparatively small number of neurons (ca. 10,000, versus 100,000 in the adult). On top of this, larvae have a translucent cuticle, simplifying the application of optogenetics and imaging of neuronal activity. Analytical tools have been adapted from *Caenorhabditis elegans* research[@Swierczek2011] to allow for the development of high-throughput behavioural assays in *Drosophila* larvae[@Ohyama2013]. Likewise robust methods for behavioural quantification have also been developed based on user-curated behavioural definitions[@Ohyama2013], unsupervised hierarchical clustering[@Vogelstein2014] and supervised machine learning techniques[@Kabra2013,@Jovanic2017,@Masson2020]. 
 
 
 
 ## *Drosophila* larval nocifensive behaviour
 
-In their natural environment *Drosophila* are preyed upon by parasitoid wasps [@Carton1986] like those of the *Chalcidoidea* and *Ichneumonoidea* superfamilies. The female wasp inserts its sharp ovipositior through the larval cuticle and lays an egg. The developing wasp larva then digests the host *Drosophila* from the inside out, eventually resulting in the pupation and eclosion of a juvenile wasp. Parasitoid wasps produce a strong selective pressure on *Drosophila*[@Powell1997], which has lead to the evolution of endogenous mechanisms to fight the parasite. The first of these is a cellular immune response that can destroy the wasp egg, preventing the development of wasp and thus also the death of the *Drosophila* larva[@Rizki1990]. The other is a unique behavioural repertoire in which the *Drosophila* larva produces a stereotyped pattern of nocifensive behaviours. These consist of an initial C-shape bend, where the head and tail are simultaneously moved either to the left or right of the body axis[@Ohyama2013] ([@fig:repertoire]A), followed by a corkscrew-like "roll" motion where the larva rotates around the anteroposterior axis[@Tracey2003] ([@fig:repertoire]B). After first presentation these behaviours can repeat, but are typically concluded by a bout of "fast-crawling", where the animal crawls with an elevated frequency of peristalsis ([@fig:repertoire]C). The direction of a roll is dictated by the position at which the wasp ovipositor is inserted, such that the rotation of the larval body removes the ovipositor, preventing egg-laying[@Hwang2007]. In laboratory conditions rolling behaviour can be readily elicited by activation of the *painless* expressing class IV dendrite arborization (CIVda or MDIV) neurons, a class of nociceptors that respond to harsh mechanical stimulation[@Zhong2010], noxious temperatures[@Zhong2012] and strong UV light[@Xiang2010].
+In their natural environment *Drosophila* are preyed upon by parasitoid wasps [@Carton1986] like those of the *Chalcidoidea* and *Ichneumonoidea* superfamilies. The female wasp inserts its sharp ovipositior through the larval cuticle and lays an egg. The developing wasp larva then digests the host *Drosophila* from the inside out, eventually resulting in the pupation and eclosion of a juvenile wasp. Parasitoid wasps produce a strong selective pressure on *Drosophila*[@Powell1997], which has lead to the evolution of endogenous mechanisms to fight the parasite. The first of these is a cellular immune response that can destroy the wasp egg, preventing the development of wasp and thus also the death of the *Drosophila* larva[@Rizki1990]. The other is a unique behavioural repertoire in which the *Drosophila* larva produces a stereotyped pattern of nocifensive behaviours. These consist of an initial C-shape bend, where the head and tail are simultaneously moved either to the left or right of the body axis[@Ohyama2013] ([@fig:repertoire]A), followed by a corkscrew-like "roll" motion where the larva rotates around the anteroposterior axis[@Tracey2003] ([@fig:repertoire]B). After first presentation these behaviours can repeat, but are typically concluded by a bout of "fast-crawling", where the animal crawls with an elevated frequency of peristalsis ([@fig:repertoire]C). The direction of a roll is dictated by the position at which the wasp ovipositor is inserted, such that the rotation of the larval body removes the ovipositor, preventing egg-laying[@Hwang2007]. 
+
+In laboratory conditions rolling behaviour can be readily elicited by activation of the class IV dendrite arborization (CIVda or MDIV) neurons[@Grueber2002,@Tracey2003], a class of nociceptors that respond to harsh mechanical stimulation[@Zhong2010], noxious temperatures[@Zhong2012] and strong UV light[@Xiang2010].
 
 
 
-![**Escape repertoire of *Drosophila* larva.** (**A**) C-shape bend involves contraction of the head and tail in the same direction. (**B**) One complete roll represents a full 360 degree rotation around the anteroposterior body axis. (**C**) Fast crawling is biomechanicallly similar to normal crawling but with an increased frequency of peristalsis.](./bend_sequence.svg){#fig:repertoire}
-
-
-
-## Scoring Behaviour?
-
-
+![**Escape repertoire of *Drosophila* larvae.** (**A**) C-shape bend involves contraction of the head and tail in the same direction. (**B**) One complete roll represents a full 360 degree rotation around the anteroposterior body axis. (**C**) Fast crawling is biomechanicallly similar to normal crawling but with an increased frequency of peristalsis.](./bend_sequence.svg){#fig:repertoire}
 
 
 
@@ -102,7 +132,7 @@ Other neuron populations have also been associated with larval nocifensive behav
 
 ## Larval musculature
 
-The somatic musculature of *Drosophila* larva is highly stereotyped and well described[@Bate1990]. Each abdominal hemisegment contains 30 muscles that can broadly be categorised by two groups: the longitudinal muscles which arrange in parallel with the body axis, or the transverse muscles which are circumferential to the body wall[@Bate1990,@Clark2018a] ([@fig:muscles]). Each of these 30 muscles are innervated by a single "big" bouton motor neuron (1b motor neurons), as well as a single "small" bouton (1s motor neuron) neuron that projects to each of the muscles within one of three functionally related groups (dorsal longitudinal, ventral longitudinal and transverse)[@Landgraf2006,@Peron2009]. These motor neurons provide glutamatergic, excitatory innervation of the muscles. Many 1b neurons show rhythmic activity coincident with waves of muscle contraction during both forward and backward locomotion[@Newman2017]. 
+The somatic musculature of *Drosophila* larvae is highly stereotyped and well described[@Bate1990]. Each abdominal hemisegment contains 30 muscles that can broadly be categorised by two groups: the longitudinal muscles which arrange in parallel with the body axis, or the transverse muscles which are circumferential to the body wall[@Bate1990,@Clark2018a] ([@fig:muscles]). Each of these 30 muscles are innervated by a single "big" bouton motor neuron (1b motor neurons), as well as a single "small" bouton (1s motor neuron) neuron that projects to each of the muscles within one of three functionally related groups (dorsal longitudinal, ventral longitudinal and transverse)[@Landgraf2006,@Peron2009]. These motor neurons provide glutamatergic, excitatory innervation of the muscles. Many 1b neurons show rhythmic activity coincident with waves of muscle contraction during both forward and backward locomotion[@Newman2017]. 
 
 The contribution of somatic musculature to basal locomotion has been characterised by Heckscher *et al*.[@Heckscher2012], which established larvae as a model system for studying rhythmic behaviour. In describing the motor profile for peristaltic crawling, they identified a differential order of contraction for forward and reverse crawling modes. This has recently been supported by a study that used calcium imaging to image the activation of somatic muscles during forward and reverse crawls, allowing identification of different combinations of co-active muscles for either locomotor mode[@Zarin2019a].
 
@@ -118,7 +148,7 @@ To date, few studies have investigated neural circuits for motor coordination of
 
 ### Transverse-linked circuitry
 
-One group of muscles thought to be important for rolling behaviour are the lateral transverse (LT) muscles ([@fig:muscles]). The LT motor neurons projecting to these muscles were first assayed by Picao-Osorio *et al*.[@Picao-Osorio2015] who screened for neurons implicated in self-righting behaviour, in which upside-down larva must correct their dorsoventral orientation. Silencing the LT motor neurons resulted in a larva which, while dorsal-side down, could perform left-right bending but struggled to roll back onto their ventral side. This self-righting behaviour is visibly similar to nocifensive rolling and the two behaviours are presumed to share a similar motor profile. Suitably, these same motor neurons have been shown to be anatomically downstream of the Down-and-Back neuron (A09l)[@Burgos2018], as well as functionally downstream of the mCSIs[@Yoshino2017] - both of which are sufficient to elicit nocifensive behaviour. Silencing the SNa motor neurons (LT-1,2,3,4 motor neurons) with tetanus neurotoxin light chain (TNT) gave no deficit in normal exploratory behaviour (crawling and turning), but did reduce the percentage of animals that performed a roll[@Yoshino2017].
+One group of muscles thought to be important for rolling behaviour are the lateral transverse (LT) muscles ([@fig:muscles]). The LT motor neurons projecting to these muscles were first assayed by Picao-Osorio *et al*.[@Picao-Osorio2015] who screened for neurons implicated in self-righting behaviour, in which upside-down larvae must correct their dorsoventral orientation. Silencing the LT motor neurons resulted in a larvae which, while dorsal-side down, could perform left-right bending but struggled to roll back onto their ventral side. This self-righting behaviour is visibly similar to nocifensive rolling and the two behaviours are presumed to share a similar motor profile. Suitably, these same motor neurons have been shown to be anatomically downstream of the Down-and-Back neuron (A09l)[@Burgos2018], as well as functionally downstream of the mCSIs[@Yoshino2017] - both of which are sufficient to elicit nocifensive behaviour. Silencing the SNa motor neurons (LT-1,2,3,4 motor neurons) with tetanus neurotoxin light chain (TNT) gave no deficit in normal exploratory behaviour (crawling and turning), but did reduce the percentage of animals that performed a roll[@Yoshino2017].
 
 ### Longitudinal-linked circuitry
 
@@ -126,7 +156,7 @@ Aside from LT motor neurons Burgos *et al*.[@Burgos2018] identified a complement
 
 ### Intrasegmental coordination
 
-During rolling behaviour larva maintain a C-shape posture[@Tracey2003]. This left-right asymmetry is presumably instigated and maintained by left-right asymmetric activation of motor cohorts. Heckscher *et al*.[@Heckscher2015] identified a set of 5 premotor neurons expressing the Even-skipped (Eve) transcription factor, Eve Lateral (EL), whose activation (or silencing) caused a asymmetric gait during crawling. Interestingly bilateral muscle activation was still synchronous, but the amplitude of contraction was uncoordinated. TEM tracing of EL neurons revealed direct innervation of MNs for dorsal longitudinal muscles (U1,U2 and RP2, [@fig:muscles]) as well as disynaptic innervation, via the Saaghi-1,3 (SA) premotor neurons, of MNs for predominantly ventral and dorsal longitudinal muscles.
+During rolling behaviour larvae maintain a C-shape posture[@Tracey2003]. This left-right asymmetry is presumably instigated and maintained by left-right asymmetric activation of motor cohorts. Heckscher *et al*.[@Heckscher2015] identified a set of 5 premotor neurons expressing the Even-skipped (Eve) transcription factor, Eve Lateral (EL), whose activation (or silencing) caused a asymmetric gait during crawling. Interestingly bilateral muscle activation was still synchronous, but the amplitude of contraction was uncoordinated. TEM tracing of EL neurons revealed direct innervation of MNs for dorsal longitudinal muscles (U1,U2 and RP2, [@fig:muscles]) as well as disynaptic innervation, via the Saaghi-1,3 (SA) premotor neurons, of MNs for predominantly ventral and dorsal longitudinal muscles.
 
 While the EL-Saaghi-MN circuits are a good example of intrasegmental coordination that regulates left-right symmetry, other intrasegmental motifs are required to enforce motor sequencing. To investigate the phase-delay between longitudinal and transverse muscles of a given segment, Zwart *et al*.[@Zwart2016] performed TEM reconstruction of the PMNs upstream of the LT1-4 and LO1 motor neurons ([@fig:muscles]). They identified a single inhibitory GABAergic premotor neuron (iIN-1), projecting exclusively to the lateral transverse MNs, which was capable of producing this phase delay. Silencing iIN-1 resulted in a simultaneous contraction of the longitudinal and transverse muscles[@Zwart 2016]. Interestingly excitatory premotor neurons innervating LT muscles (eIN-1,eIN-2 and eIN-1) and longitudinal muscles (aCC, aka MN1-Ib) are coactive during waves of activity, suggesting iIN-1 is positioned to implement the L-T phase delay.
 
@@ -136,7 +166,9 @@ Undoubtedly intrasegmental circuit motifs are necessary for nocifensive behaviou
 
 ## Premotor circuit map
 
-Zarin *et al*.[@Zarin2019a] (published after the work conducted for this thesis) undertook the mammoth effort of reconstructing all 60 MNs and 236 PMNs in a single TEM segment of the larval nervous system. With this they sought to answer how a common population of muscles could generate two distinct behavioural programs, that of forward and backward crawling. Using calcium imaging of patterns of pan-muscle activation they identified differences in the order of muscle recruitment for either behavioural mode. PMN reconstruction did not elucidate specific neurons innervating functionally distinct muscle groups for either behaviour, suggesting combinatorial coding is required to recruit behaviour-specific functional muscle groups. Further, they developed a recurrent network model of PMN and MN neurons across two segments, constrained by the measured connectivity, and demonstrated that the patterns of connectivity in this motor network was sufficient to elicit comparable patterns of muscle contraction for both forward and backward peristalsis. The model was successfully validated on known PMN activity for A14a, A18j, A01c (iIN-1,eIN-1,eIN-2) [@Zwart2016] and A18a[@Hasegawa2016], as well as recordings from novel PMNs (A31k, A06l and A23a)[@Zarin2019a]. This work will prove invaluable for future research, allowing phenotypic and functional studies to be grounded in terms of anatomic connectivity.
+Zarin *et al*.[@Zarin2019a] undertook the mammoth effort of reconstructing all 60 MNs and 236 PMNs in a single TEM segment of the larval nervous system. With this they sought to answer how a common population of muscles could generate two distinct behavioural programs, that of forward and backward crawling. Using calcium imaging of patterns of pan-muscle activation they identified differences in the order of muscle recruitment for either behavioural mode. PMN reconstruction did not elucidate specific neurons innervating functionally distinct muscle groups for either behaviour, suggesting combinatorial coding is required to recruit behaviour-specific functional muscle groups. Further, they developed a recurrent network model of PMN and MN neurons across two segments, constrained by the measured connectivity, and demonstrated that the patterns of connectivity in this motor network was sufficient to elicit comparable patterns of muscle contraction for both forward and backward peristalsis. The model was successfully validated on known PMN activity for A14a, A18j, A01c (iIN-1,eIN-1,eIN-2) [@Zwart2016] and A18a[@Hasegawa2016], as well as recordings from novel PMNs (A31k, A06l and A23a)[@Zarin2019a]. This work will prove invaluable for future research, allowing phenotypic and functional studies to be grounded in terms of anatomic connectivity.
+
+
 
 
 
@@ -149,7 +181,7 @@ Hasegawa 2016 - CLI1, CLI2
 ​Yoshikawa 2016 - LLNs
 
 Hughes 2007 - 'Mission accomplished' idea
-Fushiki 2016 - A27h
+Fushiki 2016 - A27h - intersegmental coord
 Takagi 2017 - Wave neuron - Forward vs Backward crawl
 Jovanic 2016 - Lateral disinhibition
 Kaneko 2017 - serotonergic modulation of MD IVs
@@ -157,13 +189,13 @@ Schneider-Mizell 2016
 Gerhard 2017
 Carreira-Rosario 2018
 
+Wreden 2017
+
 Lahiri 2011
 
 
 
-
-
-# Research Statement
+# Research statement
 
 ## Rationale
 
@@ -219,7 +251,7 @@ We employed a custom rig for conducting behavioural experiments, of similar desi
 
 Embryos were collected for 24 hours at 25&deg;C. Foraging third instar larvae were used for all experiments. Larvae were raised in the dark at 25&deg;C for 3-4 days on fly food containing *trans*-retinal (Sigma, R2500) at a concentration of 500M.
 
-Before the experiments the larvae were separated from food by suspension in 15% sucrose and with water. Larvae were dried then transferred to the centre of a 25x25 cm transparent plastic, square plate covered in a layer of 2% agar gel. Up to 80 larva were transferred to the plate for any given recording. When using strains containing *UAS-CsChrimson* larval collection and experiments were run in darkness. 
+Before the experiments the larvae were separated from food by suspension in 15% sucrose and with water. Larvae were dried then transferred to the centre of a 25x25 cm transparent plastic, square plate covered in a layer of 2% agar gel. Up to 80 larvae were transferred to the plate for any given recording. When using strains containing *UAS-CsChrimson* larval collection and experiments were run in darkness. 
 
 
 
@@ -253,7 +285,7 @@ A final pipeline[@Jovanic2017], here referred to as the 'JBM', was used to quant
 
 ### Manual Scoring
 
-
+Insert section on manual scoring
 
 
 
@@ -273,7 +305,7 @@ Where pairwise comparisons were performed with continuous data (e.g. roll percen
 $$
 .95 \approx P(Y_i < m < Y_j) \approx\sum^{j-1}_{k=i} \binom{n}{k}(0.5)^k(0.5)^{n-k}
 $$
-where $$j = (n+1)-i$$ (outlined [here](https://online.stat.psu.edu/stat414/node/316/)). The effect size was calculated as,
+where $j = (n+1)-i$ (outlined [here](https://online.stat.psu.edu/stat414/node/316/)). The effect size was calculated as,
 $$
 r = \frac{Z}{\sqrt{N_{Obs}}}
 $$
@@ -300,33 +332,35 @@ The protocols used are identical to those listed on the FlyLight website ([https
 
 To elucidate possible candidates for neurons involved in nocifensive rolling behaviour we designed an optogenetic behavioural screen to determine the functional relevance of discrete neuron populations in rolling behaviour. We selected 135 driver lines with expression patters in the ventral nerve cord from the catalogue of split-GAL4 lines maintained by the Fly Light database [@Pfeiffer2010,@Jenett2012,@Li2014]. To test their functional relevance we performed optogenetic co-activation of these neuron populations with Basin neurons [@Ohyama2015] providing two 15 second bouts of red light, with a 30 second interval between bouts. We hypothesised that activation of neuron populations incorporated in the nocifensive circuitry might show changes to the likelihood, amplitude and duration of rolling. 
 
-We compared rolling in the different split-GAL4 lines to a positive control (*attp2;72F11-GAL4,UAS-CsChrimson*) and evaluated rolling based on the metrics generated by the Salam pipeline for scoring behaviour[@Ohyama2013]. For each split-GAL4 line (which we will refer to by the last four digits in their name) tested we achieved 50 < *n* < 250 animals across an average of 4 replications over multiple days. For statistical analysis experiments were only compared to those controls performed on the same-day to account for day-to-day variance. Some figures are normalised by control values, such that the resultant metric is the difference ($\Delta$) between the experimental and same-day control. In order to simplify the discussion of significant results we decided to group lines based on similarities in phenotype across the different metrics analysed.
+We compared rolling in the different split-GAL4 lines to a positive control (*attp2;72F11-GAL4,UAS-CsChrimson*) and evaluated rolling based on the metrics generated by the Salam pipeline for scoring behaviour[@Ohyama2013]. For each split-GAL4 line (which we will refer to by the last four digits in their name) tested we achieved 50 < *n* < 250 animals across an average of 4 replications over multiple days. Lines were fewer than 50 animals were tested were ignored. For statistical analysis experiments were only compared to those controls performed on the same-day to account for day-to-day variance. Some figures are normalised by control values, such that the resultant metric is the difference ($\Delta$) between the experimental and same-day control. In order to simplify the discussion of significant results we decided to group lines based on similarities in phenotype across the different metrics analysed.
 
 ### Overview of roll analysis
 
-At an irradiance of 600uW/cm^2^ stimulation reliably induced rolling in 90% of control animals per-trial, *SD* = ??. ([@fig:A1_1]A). If the neuron populations being tested were important or necessary for rolling behaviour, we expected that we might see a decrease in the incidence of rolling. Only one line tested gave a significant decrease in the proportion of animals that performed rolling behaviour (*4169*), when compared to the same-day control ([@fig:supp_1]A). Interestingly, despite the high baseline of roll proportion in controls we did observe several lines that showed an increase in roll proportion. We note that other lines that increase roll proportion may have been occluded, given said high baseline.
+If the neuron populations being tested were important or necessary for rolling behaviour, we expected that we might see a decrease in the incidence of rolling. At an irradiance of 600uW/cm^2^ stimulation reliably induced rolling in 90% of control animals per-trial ([@fig:A1_1]). None of the lines tested showed a significant decrease in roll probability ([@fig:supp_1]). Interestingly, despite the high baseline of roll proportion in controls we did observe several lines that showed an increase in roll proportion. We note that other lines that increase roll proportion may have been occluded, given said high baseline.
 
 ![**Interneuron populations modulate escape behaviours across a range of quantifiable metrics.** (**A**) Average proportion of animals per trial that performed at least one roll during stimulation (Fisher's Exact). (**B**) Difference in average time-spent rolling per animal, (**C**) average curvature and (**D**) crabspeed of split-GAL4 lines versus control (Wilcoxon rank sum). Error bars, 95% confidence interval. \* *p* < .05. \** *p* < .01. \*** *p* < .001.](./thesis_aim1_1.svg){#fig:A1_1}
 
 
 
-Given the roll proportion was high for most genotypes, to assess changes in the presentation of rolling behaviour we quantified the average time spent rolling per larvae. We observed that 56 of the lines tested showed a significant increase in the time spent rolling, while 3 showed a significant decrease ([@fig:A1_1]). Further we found many lines showed statistically significant increases and decreases in the number of rolls per animal ([@fig:supp_1]) and the average amplitude of rolls per animal ([@fig:supp_1]), where the amplitude of a roll is defined as the maximum crabspeed during a bout of rolling. The abundance of significant results should be viewed cautiously, as having values of 50 < *n* < 250 will increase statistical power.
+Given the roll proportion was high for most genotypes, to assess changes in the presentation of rolling behaviour we quantified the average time spent rolling per larvae. We observed that 39 of the lines tested showed a significant increase in the time spent rolling, while 5 showed a significant decrease ([@fig:A1_1]). Further we found many lines showed statistically significant increases and decreases in the number of rolls per animal ([@fig:supp1]) and the average amplitude of rolls per animal ([@fig:supp1]), where the amplitude of a roll is defined as the maximum crabspeed during a bout of rolling.
 
-Analysis of roll-specific metrics are limited in that they can only give insight to the specific bouts of time classified as "rolls". As such, lower-level features describing the posture and movement of the larvae can give more general insight into subtler changes in escape behaviour. Of these, high curvature along the "spine" (midline from head to tail) of larvae is indicative of C-bending behaviour, while its co-presentation with increased crabspeed (movement perpendicular to the body axis) is indicative of rolling behaviour. Given that roll bouts are scored determinant on crabspeed (see Methods) it is unsurprising that most of the lines presenting increased roll duration also show increased average crabspeed during stimulation ([@fig:A1_1]A). Notably the average curvature of the animals does not co-present with increased rolling, as group 1 showed significantly decreased curvature during the bout of stimulation ([@fig:A1_1]B). 
+Analysis of roll-specific metrics are limited in that they can only give insight to the specific bouts of time classified as "rolls". As such, lower-level features describing the posture and movement of the larvae can give more general insight into subtler changes in escape behaviour. Of these, high curvature along the "spine" (midline from head to tail) of larvae is indicative of C-bending behaviour, while its co-presentation with increased crabspeed (movement perpendicular to the body axis) is indicative of rolling behaviour. Given that roll bouts are scored determinant on crabspeed (see Methods) it is unsurprising that most of the lines presenting increased roll duration also show increased average crabspeed during stimulation ([@fig:A1_1]C). Notably the change in average curvature of the animals does not co-present with increased rolling, as group 1 showed significantly decreased curvature during the bout of stimulation, while group 2 show a significant increase ([@fig:A1_1]D). 
 
 ![**Lines upregulating rolling do so with different posture.** (**A**) Instantaneous percentage of animals rolling, (**B**) average crabspeed and (**C**) curvature of animals in the first phenotypic group. **D**, **E** and **F** show the values of **A**, **B** and **C**, respectively, averaged across the duration of stimulation. (**G**) Instantaneous percentage of animals rolling, (**H**) average crabspeed and (**I**) curvature of animals in the second phenotypic group. **J**, **K** and **L** show the values of **G**, **H** and **I**, respectively, averaged across the duration of stimulation. Orange horizontal bars indicate the bout of optogenetic stimulation. Error bars, 95% confidence interval. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./thesis_aim1_2.svg){#fig:A1_2}
 
-### Interneurons upregulating performance of escape behaviour
+### Divergent upregulation of escape behaviour
 
-To understand how escape behaviour performance was changing at a higher temporal resolution, we visualised the aforementioned metrics over the time series of the experiment. Lines presenting with increased roll proportions generally fell into two categories. The first presented with a delayed but increased peak in roll percentage 2 seconds after the onset of stimulation ([@fig:A1_2]C). Roll percentage steadily decreased, yet remained higher than the control, throughout the remainder of stimulation. While *1816* showed a significant increase in crabspeed during stimulation, *p* < 0.001, *r* = .285, the temporal profile of crabspeed showed only a marginal increase, limited to the first 5 seconds of stimulation ([@fig:A1_2]D). Notably both *1816* and *1817* demonstrated a marked decrease in curve during stimulation, (*1816*) *p* < .001, *r* = .559 and (*1817*) *p* < .001, *r* = .531 ([@fig:A1_2]E).
+Given an abundance of significant results (likely inflated due to high statistical power, 50 < *n* < 250), we chose to parse our data to find groups of split-GAL4 lines with similar phenotypes. To do this we visualised the aforementioned metrics over the time series of the experiment, allowing us to analyse modulation of escape behaviours at higher temporal resolution. 
 
-The second group (*0666,1750, 4052, 4232*) showed a strong biphasic response with an initial spike in roll percentage within 1 second of stimulation, followed by a delayed and prolonged increase in roll percentage after ~5 seconds ([@fig:A1_2]F). For *0666, 4052* and *4232* this was co-presented with and marked increase in crabspeed during the stimulation bout, (*0666*) *p* < .001, *r* = .626, (*4052*) *p* < .001, *r* = .642 and (*4232*) *p* < .001, *r* = .607 ([@fig:A1_2]G). All lines showed a temporal profile in curve similar to that of the control ([@fig:A1_2]H), though this was significant when averaged across the stimulation bout for *0666*, *p* < .001, *r* = .284 and *4232*, *p* < .001, *r* = .487.
+Lines presenting with increased roll proportions generally fell into two categories. The first presented with a delayed but increased peak in roll percentage 2 seconds after the onset of stimulation ([@fig:A1_2]A). Roll percentage steadily decreased, yet remained higher than the control, throughout the remainder of stimulation. While *1816* showed a significant increase in crabspeed during stimulation, *p* < 0.001, *r* = .285 ([@fig:A1_2]E), the temporal profile of crabspeed showed only a marginal increase, limited to the first 5 seconds of stimulation ([@fig:A1_2]B). Notably both *1816* and *1817* demonstrated a marked decrease in curve during stimulation, (*1816*) *p* < .001, *r* = .559 and (*1817*) *p* < .001, *r* = .531 ([@fig:A1_2]C,F).
 
-Thing that separates these groups is Curve.
+The second group (*0666,1750, 4052, 4232*) showed a strong biphasic response with an initial spike in roll percentage within 1 second of stimulation, followed by a delayed and prolonged increase in roll percentage after ~5 seconds ([@fig:A1_2]G). All of these lines co-presented with and marked increase in crabspeed during the stimulation bout, (*0666*) *p* < .001, *r* = .626, (*1750*) *p* < .001, *r* = .347, (*4052*) *p* < .001, *r* = .642 and (*4232*) *p* < .001, *r* = .607 ([@fig:A1_2]H,K). These lines showed a temporal profile in curve similar to that of the control ([@fig:A1_2]H), though this was significant when averaged across the stimulation bout for *0666*, *p* < .001, *r* = .284 and *4232*, *p* < .001, *r* = .487.
 
-### Interneurons decreasing escape behaviour performance
+While both of these groups increase the average amount of time larvae spend rolling, the notable differences are the latency of response from group 1, as well as the divergent changes to body curvature between the groups.
 
-Another group of lines (*1951*, *4245*, *4189*) presented a decrease in roll percentage during the late phase of the stimulation bout ([@fig:A1_3]A), but the average decrease in roll duration across the stimulation bout was only significant for *1951*, *p* = .007, *r* = .347. This was complemented by a decrease in both the curve and the crabspeed of the larvae throughout the course of stimulation ([@fig:A1_3]B&C). We noted that the control data was higher than usual for these particular comparisons, perhaps distorting the significance of these results.
+### Interneurons reducing performance of escape behaviour
+
+Another group of lines (*1951*, *4245*, *4189*) presented a decrease in roll percentage during the late phase of the stimulation bout ([@fig:A1_3]A), but the average decrease in roll duration across the stimulation bout was only significant for *1951*, *p* = .007, *r* = .347 ([@fig:A1_3]D). This was complemented by a decrease in both the curve and the crabspeed of the larvae throughout the course of stimulation ([@fig:A1_3]B,C,E,F). We note that the percentage of animals rolling for our control data was higher than usual for these particular comparisons, which may have contributed to the significance of these results.
 
 The final line of interest, *4248*, displayed no obvious phenotype for rolling behaviour ([@fig:supp]), but failed to display the stereotyped 'fast-crawl' behaviour that follows a bout of rolling. Typically, following Basin stimulation, larvae show an increase in crawl speed compared to that prior to stimulation (control data, [@fig:A1_3]G). The post-stimulation crawl speed was significantly lower for *4248*, *p* = .003, *r* = .310, compared to the control.
 
@@ -336,11 +370,11 @@ The final line of interest, *4248*, displayed no obvious phenotype for rolling b
 
 ### Accounting for variability
 
-We were conscious that, as with any behavioural experimentation, there was likely day-to-day variability across our experiments. Specifically we were wary of variation in larval size, as the likelihood of rolling varies with larval age and, by extension, larval size (data not shown). As such we restricted experiments to third instar larva and rejected animals with an average area < 2.5mm^2^, below which roll likelihood decreases. We saw a range of larval size across our control experiments, with median values from 2.5 to 5mm^2^ ([@fig:supp]C). Likewise we observed a large degree of variation in the the per-animal time-spent-rolling ([@fig:supp]E) and number of rolls between trials ([@fig:supp]D). Such variation may confound statistical analyses versus our experimental lines. 
+We were conscious that, as with any behavioural experimentation, there was likely day-to-day variability across our experiments. Specifically we were wary of variation in larval size, as the probability of rolling varies with larval age and, by extension, size (data not shown). As such we restricted experiments to third instar larvae and rejected animals with an average area < 2.5mm^2^, below which roll likelihood decreases. 
 
-We rejected all lines where either the experimental larvae or same-day controls had *n < 50* and sought to eliminate other lines based on uncharacteristic control data.
+After implementation of this threshold we did observe differences in the average size of larvae between genotypes ([@fig:supp1]A). These deviations fell in the range of $\pm$2 mm^2^. This range was deemed tolerable given the probability of rolling, in most cases, varied by less than $\pm$20% ([@fig:supp1]B). 
 
-Due to variability, we retested lines of interested and selected only the most robust data to pursue.
+To determine within-genotype variability we looked at average larval size across different trials for our control data and observed median values from 2.5 to 5mm^2^ ([@fig:supp1]). Interestingly we also saw a large degree of variation in metrics describing rolling behaviours, including per-animal time-spent-rolling ([@fig:supp1]) and average number of rolls ([@fig:supp1]). Whether the variability in these specific metrics is explained by variation in larval size has yet to be determined.
 
 ***
 ## Aim 2.1
@@ -349,13 +383,11 @@ Having identified 4 different groups of neurons modulating unique aspects of noc
 
 *1816* drives expression selectively in a pair of segmentally repeated neurons in the ventral nerve cord (VNC) of the larval nervous system. These neurons have previously been identified as the A02e neurons, part of the family of lineage-related period-positive median segmental interneurons (PMSI) population (includes neurons A02a-k)[@Kohsaka2014]. They are reported to be GABAergic and thus inhibitory interneurons that directly innervate motor neurons[@Kohsaka2019]. *4232* drove expression in an unknown group of approximately 3 pairs of neurons with expression limited to the brain.
 
-
-
 ### Interneuron phenotypes are robust with different stimulation intensity
 
-The performance of escape behaviour can differ depending on the intensity with which Basin neurons are stimulated. At high intensities rolling behaviours are sustained throughout a period of stimulation, whereas at lower intensities larval switch to crawling behaviours after 5-10s (supplemental). To determine whether the modulation of escape behaviour by our split lines was consistent at lower stimulus intensities, we repeated our Basin coactivation experiments with an irradiance of 100uW/cm^2^. Consistent with our previous data *1816* and *4232* both showed significant increases in total roll duration (*p* < .001, *r* = ?? and *p* < .001, *r* = ??, respectively) and average crabspeed during stimulation (*p* < .001, *r* = ?? and *p* < .001, *r* = ??, respectively; [@fig:A2_1]), while *1816* also showed a consistent decrease in average curvature, *p* = ??, *r* = ?? ([@fig:A2_1]). 
+The performance of escape behaviour can differ depending on the intensity with which Basin neurons are stimulated. At high intensities rolling behaviours are sustained throughout a period of stimulation, whereas at lower intensities larval switch to crawling behaviours after 5-10s ([@fig:supp]). To determine whether the modulation of escape behaviour by our split lines was consistent at lower stimulus intensities, we repeated our Basin co-activation experiments with an irradiance of 100uW/cm^2^. Consistent with our previous data *1816* and *4232* both showed significant increases in total roll duration (*p* < .001, *r* = .301 and *p* < .001, *r* = .428, respectively) and average crabspeed during stimulation (*p* = .003, *r* = .194 and *p* < .001, *r* = .503, respectively; [@fig:A2_1]), while *1816* also showed a consistent decrease in average curvature, *p* = .007, *r* = .178 ([@fig:A2_1]). 
 
-To test whether this modulation of escape behaviour was bidirectional we inhibited *1816* and *4232* using the tetanus neurotoxin light chain (TNT) whilst applying optogenetic activation of Basin neurons to elicit escape behaviours. We compared these results to a control with no split-GAL4 driven TNT expression (*attp2;Basin>Chrimson*) as well as a within-genotype negative control that expresses an inactive form of TNT (*UAS-impTNT;Basin>Chrimson*). Plotted data were normalised by the attp2 control lines to visualise the within-genotype effect of TNT expression. Silencing *1816* with TNT expression significantly increased roll duration compared to expression of the null TNT construct, *p* < .001, *r* = ?? ([@fig:A2_1]). Likewise, TNT expression increased the average curvature of larvae for *1816*, *p* < .001, *r* = ??, and *4232*, *p* < .001, *r* = ??, when compared to null TNT controls ([@fig:A2_1]). These data suggest *1816* may affect bidirectional control on larval curvature during nocifensive behaviour.
+To test whether this modulation of escape behaviour was bidirectional we inhibited *1816* and *4232* using the tetanus neurotoxin light chain (TNT) whilst applying optogenetic activation of Basin neurons to elicit escape behaviours. We compared these results to a control with no split-GAL4 driven TNT expression (*attp2;Basin>Chrimson*) as well as a within-genotype negative control that expresses an inactive form of TNT (*UAS-impTNT;Basin>Chrimson*). Plotted data were normalised by the attp2 control lines to visualise the within-genotype effect of TNT expression. Silencing *1816* with TNT expression significantly increased roll duration compared to expression of the null TNT construct, *p* < .001, *r* = .280 ([@fig:A2_1]). Likewise, TNT expression increased the average curvature of larvae for *1816*, *p* < .001, *r* = .343, and *4232*, *p* = .005, *r* = .297, when compared to null TNT controls ([@fig:A2_1]). Given that activation versus inhibition of *1816* modulates curvature in opposite directions, the data suggest *1816* may affect bidirectional control on larval curvature during nocifensive behaviour. By contrast, *4232* shows greatest modulation of escape behaviour when activated, and less obvious changes when silenced.
 
 
 
@@ -365,25 +397,21 @@ To test whether this modulation of escape behaviour was bidirectional we inhibit
 
 ### Contribution to basal locomotion
 
-Given both *1816* and *4232* are both implicated in the performance of nocifensive behaviour, we wanted to determine whether they were also necessary for basal locomotor behaviours. First we decided to perform single optogenetic activation of these neurons and assessed metrics associated with crawling (crawl amplitude and frequency) as well as metrics related to normal turning and casting behaviours (average curvature). Line *1816* showed no change to either crawl amplitude or frequency but did show a marginal reduction in average curvature during stimulation, *p* = .049, *r* = .129 ([@fig:A2_2]). However *4232* showed significant reduction to both crawl amplitude, *p* < .001, *r*  = .354 ([@fig:A2_2]), and frequency, *p* = .002, *r* = .221 ([@fig:A2_2]), as well as a increase in average curvature, *p* < .001, *r* = .398 ([@fig:A2_2]). 
+Given both *1816* and *4232* are both implicated in the performance of nocifensive behaviour, we wanted to determine whether they were also necessary for basal locomotor behaviours. First we decided to perform single optogenetic activation of these neurons and assessed metrics associated with crawling (crawl amplitude and frequency) as well as metrics related to normal turning and casting behaviours (average curvature). Activation of *1816* showed no change to either crawl amplitude or frequency but did show a marginal reduction in average curvature during stimulation, *p* = .049, *r* = .129 ([@fig:A2_2]). However *4232* showed significant reduction to both crawl amplitude, *p* < .001, *r*  = .354 ([@fig:A2_2]), and frequency, *p* = .002, *r* = .221 ([@fig:A2_2]), as well as a increase in average curvature, *p* < .001, *r* = .398 ([@fig:A2_2]). 
 
-To complement this experiment we decided to perform single inhibition of these neurons using a TNT construct. TNT silences the neurons permanently, thus no stimulation was required. The most notable result was that silencing *4232* reduces the average curvature of the larvae (*p* < .001, *r* = .348, [@fig:A2_2]), complementing the increase seen with *4232* activation. Referring to the timeseries, we can see thafor beingt activation of *4232* induces increased curvature throughout the bout of stimulation ([@fig:supp]), though we cannot determine whether this reflect head casting or turning behaviours.
+To complement this experiment we decided to perform single inhibition of these neurons using a TNT construct. TNT silences the neurons permanently, thus no stimulation was required. The most notable result was that silencing *4232* reduces the average curvature of the larvae (*p* < .001, *r* = .348, [@fig:A2_2]), complementing the increase seen with *4232* activation. Referring to the timeseries, we can see that activation of *4232* induces increased curvature throughout the bout of stimulation ([@fig:supp]), though we cannot determine whether this reflects head casting or turning behaviours.
 
-We also observed a small increase in crawl frequency on silencing *1816*, which is consistent with the literature[@Kohsaka2014], *p* = .004, *r* = .264 ([@fig:A2_2]). Together, these results suggest that the activity of *4232*, but not *1816*, affects posture during basal locomotion.
-
-
-
-![**4232 modulates body curvature during basal locomotion.** (**A-C**) Single optogenetic coactivation of  split-GAL4 lines. (**A**) The average crawl amplitude, (**B**) crawl frequnecy and (**C**) curvature of larvae during optogenetic stimulation. (**D-F**) Single silencing of split-GAL4 lines with TNT. (**D**) The average crawl amplitude, (**E**) crawl frequnecy and (**F**) curvature of larvae during free exploration. Error bars, 95% confidence interval. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_2.svg){#fig:A2_2}
+We also observed a small increase in crawl frequency on silencing *1816*, which is consistent with the literature[@Kohsaka2014], *p* = .004, *r* = .264 ([@fig:A2_2]). Together these results suggest that the activity of *4232* affects both posture and peristaltic crawling, whereas *1816* is minimally implicated.
 
 
 
-
+![**4232 modulates body curvature during basal locomotion.** (**A-C**) Single optogenetic activation of  split-GAL4 lines. (**A**) The average crawl amplitude, (**B**) crawl frequnecy and (**C**) curvature of larvae during optogenetic stimulation. (**D-F**) Single silencing of split-GAL4 lines with TNT. (**D**) The average crawl amplitude, (**E**) crawl frequnecy and (**F**) curvature of larvae during free exploration. Error bars, 95% confidence interval. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_2.svg){#fig:A2_2}
 
 ***
 
 ## Aim 2.2
 
-Having identified that A02e modulates the posture of larvae during escape behaviour we wanted to identify which motor neurons and muscles are downstream of A02e to gain inference into which motor cohorts are important for facilitating these nocifensive behaviours. Further we wanted to assay PMNs affecting similar motor cohorts to determine whether phenotypic similarites between PMNs might implicate certain muscles in the performance of escape behaviour.  As A02e has been identified as part of the PMSI family we decided to behaviourally characterise different neurons of the A02 lineage. These neurons are morphologically similar[@Kohsaka2014], but the relative differences in their function and connectivity have yet been addressed. 
+Having identified that A02e modulates the posture of larvae during escape behaviour, but not basal locomotor behaviours, we wanted to identify which motor neurons and muscles are downstream of A02e. This should allow inference into which motor cohorts are specifically important for facilitating these nocifensive behaviours. Further we wanted to assay PMNs affecting similar motor cohorts to determine whether connectomic similarities between PMNs might strengthen predictions of muscles necessary for escape behaviour.  As A02e has been identified as part of the PMSI family we decided to behaviourally characterise different neurons of the A02 lineage. These neurons are morphologically similar[@Kohsaka2014], but the relative differences in their function and connectivity have yet been addressed. 
 
 ### A02 connectivity
 
@@ -393,9 +421,9 @@ However, A02e and A02g differ in that A02e also makes a significant proportion o
 
 A02f shares most similarities with A02e, innervating MN4 (7.5 per hemisegment, 20.3% of total output) and MN10 (3.5 per hemisegment, 9.5% of total output), both of which project to the DL muscles. However A02f also has unique outputs to the LT projecting motor neurons, MN22/23 (6 per hemisegment, 16.2% of total output) and MN21/22 (2 per hemisegment, 5.4% of total output), as well as the DO projecting motor neuron, MN19 (3.5 per hemisegment, 9.5% of total output).
 
-All 3 neurons also make premotor-to-premotor connections, but those are not reported here and are beyond the scope of this study. The correlation between the number of synapses and the synaptic strength is unknown for this system.
+All 3 neurons also make premotor-to-premotor connections, but those are not reported here.
 
-![**Neurons of the A02 lineage have similar morphology but different connectomics**](thesis_aim2_3.svg){#fig:A2_3}
+![**Neurons of the A02 lineage have similar morphology but different connectomics.** Morphology of (**A**) A02e, (**B**) A02f and (**C**) A02g within the first abdominal segment, reconstructed in a TEM volume of the L1 nervous system. (**D**) Number of synapses formed from premotor neuron (y axis) to motor neuron (x axis), as observed in the same TEM volume. Identidy of the muscles anatomically downstream of (**F**) A02e, (**G**) A02f and (**H**) A02g compared to (**E**) reference musculature. Colour indicates the number of (red) contralaterel and (blue) ipsilateral synapses made with the corresponding MN.](thesis_aim2_3.svg){#fig:A2_3}
 
 
 
@@ -403,22 +431,22 @@ All 3 neurons also make premotor-to-premotor connections, but those are not repo
 
 To test the relative involvement of the different A02 populations in escape behaviour we performed optogenetic co-activation Basin neurons with each of the A02 lines. Given the relative similarity in connectivity between A02e and A02g, we expected these neurons to present the greatest similarity in phenotype.
 
-Consistent with our previous observations, lines expressing A02e showed a delayed peak in the roll percentage ([@fig:A2_4]). We quantified this delay as the "latency to first roll" and found significant increases in latency for lines with expression in A02e (*1816*, *p* < .001, *r* = .326, *1817*, *p* < .001, *r* = .290) and A02f, *p* < .001, *r* = .202, compared to a negative control (*attp2;Basin>Chrimson*; [@fig:A2_4]). Further, to determine whether this delay in roll onset reflected delayed change in postural metrics, we quantified the latency to crabspeed and latency to curve (defined as the time between stimulus onset and rise in respective metric). Latency to crabspeed was significantly increased for A02f, *p* < .001, *r* =  .291, and for both A02e lines, *1816*, *p* < .001, *r* = .523 and *1817*, *p* < .001, *r* = .475 ([@fig:A2_4]). All 3 neurons showed an increase in latency to curve, but this effect was greatest for A02e (*1816*, *p* < .001, *r* = .648 and *1817*, *p* < .001, *r* = .660; [@fig:A2_4]).
+Consistent with our previous observations, lines expressing A02e showed a delayed peak in the roll percentage ([@fig:A2_4]). We quantified this delay as the "latency to first roll" and found significant increases in latency for lines with expression in A02e (*1816*, *p* < .001, *r* = .326, *1817*, *p* < .001, *r* = .290) and A02f, *p* < .001, *r* = .202, compared to a positive control (*attp2;Basin>Chrimson*; [@fig:A2_4]). Further, to determine whether this delay in roll onset reflected delayed change in postural metrics, we quantified the latency to crabspeed and latency to curve (defined as the time between stimulus onset and rise in respective metric). Latency to crabspeed was significantly increased for A02f, *p* < .001, *r* =  .291, and for both A02e lines, *1816*, *p* < .001, *r* = .523 and *1817*, *p* < .001, *r* = .475 ([@fig:A2_4]). All 3 neurons showed an increase in latency to curve, but this effect was greatest for A02e (*1816*, *p* < .001, *r* = .648 and *1817*, *p* < .001, *r* = .660; [@fig:A2_4]).
 
-All A02 lines demonstrated significant reductions in average curvature and crabspeed during the bout of optogenetic stimulation ([@fig:A2_4]). Interesting, both lines for A02e showed a significant decrease in total roll duration (*1816*, *p* < .001, *r* = .277 and *1817*, *p* = .029, *r* = .148; [@fig:A2_4]). We note that this is different from the result in our original screen and likely reflects changes in the performance of the negative control. 
+All A02 lines demonstrated significant reductions in average curvature and crabspeed during the bout of optogenetic stimulation ([@fig:A2_4]). Interesting, both lines for A02e showed a significant decrease in total roll duration (*1816*, *p* < .001, *r* = .277 and *1817*, *p* = .029, *r* = .148; [@fig:A2_4]). We note that this is different from the result in our original screen and likely reflects changes in the performance of the positive control. 
 
-These results suggest that all the A02 neurons tested are implicated in the performance of escape behaviours, but that A02e and A02f modulate the most similar aspects of behaviour. Specifically A02e and A02f interfere with the onset of escape behaviours. 
-
-
+These results suggest that all the A02 neurons tested are implicated in the performance of escape behaviours, but that A02e and A02f modulate the most similar aspects of behaviour. Specifically, activation of A02e and A02f interferes with the onset of escape behaviours. 
 
 
-![**A02 neurons differentially modulate escape behaviour**](thesis_aim2_4.svg){#fig:A2_4}
+
+
+![**A02 neurons differentially modulate escape behaviour.** Optogenetic co-activation of Basin neurons with different A02 neurons. Instaneous roll proportion for (**A**) A02e, (**B**) A02f and (**C**) A02g. (**D**) Average latency to the first bout of rolling. Average latency to initial rise in (**F**) crabspeed and (**H**) curve. (**E**) The average total duration of rolls per larvae, (**G**) average crabspeed and (**I**) average curvature of larvae during stimulation. Error bars, 95% confidence interval. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_4.svg){#fig:A2_4}
 
 
 
 ### A02 modulation of basal locomotion
 
-Given that all A02 neurons tested impacted postural metrics, we tested their function in basal locomotion. To do this we performed both single optogenetic activation and single inhibition (TNT) of the A02 neurons. All lines trend toward an increase in crawl frequency ([@fig:A2_5]) when activated, which was mirrored by a general decrease in crawl frequency when silenced ([@fig:A2_5]). Of these, lines with expression in A02e neurons showed the greatest magnitude of change. These results are consistent with previous literature implicating the A02 population in regulating peristaltic frequency[@Kohsaka2014]. Unsurprisingly, genotypes showing a decrease in crawl frequency also showed a decrease in crawl amplitude.
+Given that all A02 neurons tested impacted postural metrics, we tested their function in basal locomotion. To do this we performed both single optogenetic activation and single inhibition (TNT) of the A02 neurons. All lines trend toward an increase in crawl frequency ([@fig:A2_5]) when activated, which was mirrored by a general decrease in crawl frequency when silenced ([@fig:A2_5]). Of these, lines with expression in A02e neurons showed the greatest magnitude of change. These results are consistent with previous literature implicating the A02 population in regulating peristaltic frequency[@Kohsaka2014], however this is one of few studies to test A02 neurons individually[@Kohsaka2019]. Unsurprisingly, genotypes showing a decrease in crawl frequency also showed a decrease in crawl amplitude.
 
 Notably, activation of A02f caused a large and significant increase in curvature during stimulation, *p* < .001, *r* = .495 ([@fig:A2_5]). Specifically, activation of A02f induces a decrease in the percentage of animals crawling, followed by an increase in curvature 5 seconds after the onset of stimulation ([@fig:supp]). Similarly, activation of *4189* (A02g) also induces a significant increase in curvature, *p* < .001, *r* = .211, but with relatively small magnitude.
 
@@ -426,7 +454,7 @@ We also observed significant decreases in average curvature for *1792* (A02f), *
 
 These results suggest that none of the neurons in questions are necessary for the performance of crawling behaviour, but that A02f may induce curved posture. Whether this reflects normal head casting behaviour or change of direction is unclear from these analyses. 
 
-![**A02 neurons differentially modulate body posture**](thesis_aim2_5.svg){#fig:A2_5}
+![**A02 neurons differentially modulate body posture.** (**A-C**) Single optogenetic activation of A02 neurons. (**A**) The average crawl amplitude, (**B**) crawl frequnecy and (**C**) curvature of larvae during optogenetic stimulation. (**D-F**) Single silencing of A02 neurons with TNT. (**D**) The average crawl amplitude, (**E**) crawl frequnecy and (**F**) curvature of larvae during free exploration. Error bars, 95% confidence interval. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_5.svg){#fig:A2_5}
 
 
 
@@ -438,17 +466,11 @@ Throughout the literature there are numerous methods which implement different a
 
 ### A02e phenotype is detectable regardless of analytical method
 
-We first set up both the JB pipeline[@Jovanic2020] (with assistance from the [Masson lab](https://research.pasteur.fr/en/team/decision-and-bayesian-computation/)) and JAABA pipelines in the lab. While the JB pipeline already has trained classifiers for detection of rolling behaviour, we had to train a novel classifier for rolling behaviour with the JAABA pipeline (Shua Noh, unpublished). We processed our optogenetic co-activation experiments for A02e and the negative control (*1816,Basin>Chrimson* and *Basin>Chrimson*, respectively) with each of the different classification methods. 
+We first set up both the JB pipeline[@Jovanic2020] (with assistance from the [Masson lab](https://research.pasteur.fr/en/team/decision-and-bayesian-computation/)) and JAABA pipelines in the lab. While the JB pipeline already has a trained classifier for detection of rolling behaviour, we had to train a novel classifier for rolling behaviour with the JAABA pipeline (Shua Noh, unpublished). We processed our optogenetic co-activation experiments for A02e and the positive control (*1816,Basin>Chrimson* and *Basin>Chrimson*, respectively) with each of the different classification methods. 
 
-The three pipelines showed visible differences in the scoring of roll behaviours for our control data, which typically serves as our baseline for quantification of escape behaviour. Salam, the pipeline originally implemented in the lab, shows the most conservative scoring of rolling behaviour per larvae, *Mdn* = ??, whereas JAABA scores with the greatest abundance, *Mdn* = ?? ([@fig:A1_4]). When scoring co-activation with A02e, both the JB and JAABA pipelines show are large decrease in the percentage of animals rolling. Notably, all pipelines showed an increase in the latency to roll.
+The three pipelines showed visible differences in the scoring of roll behaviours for our control data, which serves as our baseline for quantification of escape behaviour. Salam shows the most conservative scoring of rolling behaviour per larvae, whereas JAABA scores with the greatest abundance ([@fig:A1_4]). When scoring co-activation with A02e, both the JB and JAABA pipelines show are large decrease in the percentage of animals rolling ([@fig:A1_4]). Notably, all pipelines showed an increase in the latency to roll. This suggests that the phenotype originally detected with our pipeline is consistent and robust, rather than a artefact from our choice in method.
 
-This suggests that the phenotype detected with our pipeline is consistent and robust, rather than a artefact from our choice in method.
-
-
-
-
-
-![**Title**](./thesis_aim1_4.svg){#fig:A1_4}
+![**Performance of different pipelines in scoring rolling behaviour.** (**A-C**) Optogenetic activation of Basin neurons (*Basin > Chrimson*). Ethogram indicating bouts of rolling behaviour as scored by the (**A**) Salam, (**B**) JB and (**C**) JAABA pipelines, apposed to bouts of crawling as scored by Salam. (**D-F**) Optogenetic co-activation of Basin neurons with A02e (*1816*) or a positive control (*attp2*). Instantaneous roll proportion as scored by the (**D**) Salam, (**E**) JB and (**F**) JAABA pipelines. ](./thesis_aim1_4.svg){#fig:A1_4}
 
 
 
@@ -456,21 +478,25 @@ This suggests that the phenotype detected with our pipeline is consistent and ro
 
 Given the magnitude of difference in the scoring of rolling between pipelines we asked what the relative accuracy and specificity in scoring was between these pipelines. To assess this we scored 1 timestamp, consisting of 33 larvae, for two different aspects of escape behaviour. We scored both C-bending behaviour (initiation/maintenance of C-shape posture) against rolling behaviour (C-shape posture coincident with lateral movement) as mutually exclusive behaviours. Distinguishing these two behaviours allowed us to evaluate the specificity of either pipeline for rolling versus escape behaviours more generally.
 
-We quantified the performance of the pipelines by their percentage overlap with the ground truth, as well as the duration of false positives scored. Salam demonstrated the lowest specificity for rolling, labelling 24% of true rolls and 26% of true C-bends. The JB pipeline showed the greatest specificity for scoring rolling, labelling 56% of true rolls compared to just 15% of true C-bends. JAABA also showed improved specificity versus Salam, labelling 87% of true rolls and only 41% of true C-bends.
+We quantified the performance of the pipelines by their percentage overlap with the ground truth, as well as the duration of false positives scored. Salam demonstrated the lowest specificity for rolling, labelling 24% of true rolls and 26% of true C-bends ([@fig:A1_5]). The JB pipeline showed the greatest specificity for scoring rolling, labelling 56% of true rolls compared to just 15% of true C-bends. JAABA also showed improved specificity versus Salam, labelling 87% of true rolls and only 41% of true C-bends ([@fig:A1_5]).
 
-In assessing false positives, it is important to note that falsely detected "rolls" frequently overlap with true C-bend behaviours. As such, we can assess false positives against rolls separately to false positives against nocifensive behaviours more generally (combination of roll & C-bend). The JB pipeline demonstrates the greatest accuracy, scoring the fewest false positives for either rolling (.59 seconds per larvae) or nocifensive behaviour generally  (.17 seconds per larvae). Salam and JAABA performed with similar accuracy, scoring false positive rolls at 1.39 and 1.86 seconds per larvae, respectively. Both showed greater accuracy when scoring against nocifensive behaviour in general, both scoring fewer than .85 seconds per larvae of false positive behaviour.
+In assessing false positives, it is important to note that falsely detected "rolls" frequently overlap with true C-bend behaviours. As such, we can assess false positives against rolls separately to false positives against nocifensive behaviours more generally (combination of roll & C-bend). The JB pipeline demonstrates the greatest accuracy, scoring the fewest false positives for either rolling (.59 seconds per larvae) or nocifensive behaviour generally  (.17 seconds per larvae). Salam and JAABA performed with similar accuracy, scoring false positive rolls at 1.39 and 1.86 seconds per larvae, respectively ([@fig:A1_5]). Both showed greater accuracy when scoring against nocifensive behaviour in general, both scoring fewer than .85 seconds per larvae of false positive behaviour ([@fig:A1_5]).
 
 These results argue that JB offers best trade off for specificity and accuracy against proportion of behaviours detected. Otherwise JAABA offers the greatest absolute scoring of rolling, but at the cost of some specificity and accuracy.
+
+![**Figure title.**(**G**) The proportion of overlap for classified rolling behaviours, by pipeline, against ground truth scoring for C-bending, rolling or both (roll & C-bend combined). (**E**) The average duration of false positive rolls scored per larvae for each of the pipelines, as compared against ground truth scoring for rolling or escape behaviour generally (roll & C-bend combined).](./thesis_aim1_5.svg){#fig:A1_5}
 
 
 
 ***
 
+## Notes
+
 Despite frugal scoring of rolling behaviour, Salam 
 
 Something about JB being more punctate in labelling - less of a tendency to merge consecutive behaviours.
 
-### D
+
 
 Interestingly, this is less true for the Salam pipeline, suggesting that some of the features used to score rolling in the JB and JAABA pipelines are not captured by Salam.
 
@@ -482,52 +508,181 @@ Discuss subjective nature of behaviour annotation
 
 
 
-# Summary
-*Summary of results to date (specific items may be included in methods, if preferable)*
-
-
-
-## Aim 1
-
-1. Identify neurons that, for the most part, increase the performance of rolling behaviour
-2. These have differential effects on either crabspeed or curvature
-3. The effects on "rolling" per-se are variable, particularly in the control
-
-
-
-## Aim 2
-
-1. Rolling, as scored by Salam, does not represent my own interpretation of rolling. As such it's value as a comparative metric is moot.
-2. 1816 - effects are reproducible and consistent when coactivated with 69F06. Single activation has no effect on anything. Silencing the neurons has no real affect on basal locomotion or on the performance of rolling. That said, the inhibitory constructs may be bogus. It's part of the PMSI population and is directly inhibitory on MNs.
-3. 4232 - can't remember. Identity unkown
-4. 4248 - expressed in the MB. Can't remember what else it does
-
-
-
-## Aim 3
-
-1. Meta-analysis of A02 connectivity. A02g shares connectivity, A02f does not. Therefore A02g likely to have similar phenotype.
-2. Coactivation confirms this - slightly different phenotype as previously observed
-3. Silencing - again nothing really happens
-4. 
-
-
+# Discussion
 
 ***
 
-# Conclusion
+**Aim 1:** Identify novel premotor interneuron populations implicated in the performance of nocifensive behaviours in *Drosophila melanogaster* larva. 
 
-Investigation of the neural substrates for motor coordination has been well established for basal locomotion in *Drosophila* larva[@Heckscher2012,@Clark2018a,@Kohsaka2017]. However, how common musculature can be coordinated for the performance of biomechanically dissimilar behaviours is poorly understood. In the case of the larval nocifensive repertoire only a few premotor or motor neurons have been shown to modulate performance of the behaviour[@Yoshino2017,@Burgos2018]. 
+**Hypothesis I:** Manipulation of premotor neuron populations necessary for noficensive behaviour will perturb performance of said behaviour. These affects should be quantifiable with metrics describing rolling behaviour as well as posture.
 
-The completion of this study should elucidate novel premotor components in the neural circuitry underlying escape behaviours. Further it hopes to address the relative specificity of these premotor components for different behavioural modes. By extension, this could provide insight into the specific muscles necessary for the performance of these behaviours. Together these findings should help in teasing apart the neural mechanisms for coordinating distinct locomotor behaviours.
+**Hypothesis II:** Established behavioural quantification methods of different design may show discrepancies in scoring nocifensive behaviours. Genotypes presenting robust phenotypic changes should be detectable regardless of the quantitative method used.
+
+​	
+
+**Aim 2:** Characterise the relationship between anatomical connectivity and locomotor involvement across different premotor interneuron populations.
+
+**Hypothesis I:** Manipulation of premotor neurons implicated in nocifensive behaviours will also disrupt basal locomotion.  These affects should be quantifiable with metrics describing crawling and turning behaviours.
+
+**Hypothesis II:** Premotor populations that innervate similar motor neuron cohorts, with the same sign of neurotransmission (excitatory/inhibitory), will be necessary for the performance of similar locomotor patterns.
+
+***
+
+The overall objective of this study was to identify and characterise novel interneuron components involved in performance of nocifensive behaviours. By employing an optogenetic approach we were able to describe 4 groups of neurons that affected similar changes on the presentation of escape behaviours. Of these, we characterised neurons *4232* and *1816*
+
+Identified different groups of phenotypes,  including 4232 and 1816
+
+
+
+## Novel interneuron phenotypes
+
+Larval escape behaviour encompass a number of discrete actions, including C-shape bending, rolling and fast crawling. These behaviours presumably require the activation of distinct motor programs[@Lahiri2011] and, as such, require unique patterns of premotor activity for their coordination. 
+
+In designing a behavioural screen to identify neurons important for these behaviours, we anticipated that artificial activation of behaviour-necessary neurons may perturb the performance of the different components of the escape repertoire.
+
+
+
+Upregulation of a behaviour may not indicate a neuron's involvement in the behaviour, but rather it's distrubtion of conflicting behaviours.
+
+
+
+ most obvious indication of a neuron's involvement would be the 
+
+Initial metrics used to quantify these behaviours were focused specifically around bouts of rolling behaviour (roll probability, amplitude, duration, etc). These analyses revealed many significant results([@fig:supp1])
 
 
 
 
 
+## Behavioural specificity of neurons
+
+We wanted to whether neurons showed specificity in locomotor modulation between behaviours
+
+Our behavioural analyses implicate the inhibitory premotor neuron A02e, labelled by split-GAL4 line *1816*, in the performance of nocifensive behaviours. Activation of A02e decreases body curvature during stimulation of escape behaviour, while silencing A02e increases said curvature. Interestingly, activating or silencing A02e does not results in changes to curvature during normal exploratory behaviours, which include head casting and turning (change of direction) behaviours. Despite visual similarities between some of these behaviours (C-bend and head cast) these results suggest that appropriate recruitment of A02e is more important for the performance of nocifensive behaviours than for basal locomotor behaviours.
+
+This results is somewhat surprising given that A02e belongs to a larger population of lineage-related neurons, termed PMSIs, that have been shown to regulate the speed of peristalsis during crawling[@Kohsaka2014]. As of present, few of the individual A02 neurons have been behaviourally tested, but our data suggests
+
+In fact, sustained activation of the PMSI population causes flaccid paralysis in larvae.
 
 
-# Discussion
+
+suggest that appropriate activation of the inhibitory premotor neuron A02e, labelled by split-GAL4 line *1816*, is more important for the performance of escape behaviours than for basal locomotor behaviours.
+
+Idea that 
+
+
+
+Unilateral behaviour - presuambly require asymmetry of neuron firing. Cannot achieve this with our present activation
+
+
+
+## Implication of different muscles in escape behaviour
+
+
+
+Discuss possible implication of DLs in C-bend
+
+
+
+Discuss A02f result for single activation. If animal cannot contract lateral muscles, perhaps it cannot continue peristalsis. Other behavioural modes activated instead.
+
+
+
+Is C-bend necessary for roll?
+
+
+
+*4232* - limited conclusions without identity of the neuron
+
+
+
+Behavioural screen elucidated many lines that produced significant results
+
+However, fewer of these produced results with a large magnitude of change
+
+
+
+"some neurons seem to be less susceptible to TNT (Thum et al., 2006)." - Venken
+
+## Analytical methods for quantifying escape behaviours
+
+Throughout the field of neuroethology there is an implicit requirement that a behaviour of interest be readily identifiable/observable and, in many cases, quantifiable. In other words, to determine the involvement of a neuron or population of neurons in a given behaviour, one needs to parameterise the behaviour. In its simplest form this quantification is produced manually, by observation. However the development of algorithms for behaviour detection have improved both the speed and consistency of behaviour quantification. Within *Drosophila* larvae research, such algorithms have expedited the performance of behavioural screening[@Ohyama2013, @Gershow2012].
+
+Across the field different behavioural detection methods are built on different philosophies. Some pipelines are built using user-written behavioural definitions, while others implement supervised machine learning methods to train behaviour classifiers[@Kabra2013,@Jovanic2017]. Regardless of design, the behavioural definition entrained by a given pipeline is based on the subjective annotation of the behaviour by the user. As such, the degree to which these different pipelines achieve consensus in the labelling of like-named behaviours is unknown.
+
+We wanted to evaluate the whether there were discrepancies in the scoring of rolling behaviour across different pipelines. In particular we wanted to determine whether the modulation of escape behaviours affected by A02e was detectable beyond our particular methodology. 
+
+Here we show that, despite 
+
+Suggests that there are common features between the pipelines that encode the onset of rolling behaviour. In terms of Salam, this presumably to delineated by crabspeed, as an the initial peak in crabspeed triggers behaviour onset[@Ohyama2013]. In terms of other pipelines, it is difficult to know given the 'black-box' nature of machine learning algorithms.
+
+Either way, suggests that the behavioural changes in  A02e
+
+Clearly there are differences between these pipelines. Choice of pipeline should be *a priori*. May depend whether you want the most specific roll classification or most accurate roll classification. 
+
+
+
+the definition of rolling is subjective by nature
+
+thus, regardless of complexity of classification, all methods are inherently subjective
+
+
+
+However, all of these pipelines take as their input a common feature set - namely, the 
+
+
+
+While original detection methods rely on manually defined behaviours[@Ohyama2013], other classification methods have implemented machine learning techniques to train
+
+
+
+
+
+"Systems that use motorized stages to follow individual worms at high resolution allow precise quantification of behavior1–3, but screening for stochastic behaviors is still highly labor- and time-intensive. Systems that monitor many worms simultaneously on a single plate4–6" - Swierczek
+
+Classical behaviour scoring has relied on manual definitions of behaviour
+
+More modern methods implement machine learning to try and classify behaviour
+
+Relative  
+
+Classically, behaviours have quantified with discrete 
+
+Methods for quantifying escape behaviours don't parse finer elements of behaviour
+
+Quantification of discrete behaviours - doesn't necessarily explain how
+
+
+
+
+
+## Limitations
+
+Size-match controls
+
+Lack of motor profile.
+
+Detection of motions, rather than behaviours, would have been useful here. Ideally would have been nice to parse C-bend, wiggle, thrash, and roll (strict definition). But as of yet no methods, other than manual scoring, offer this luxury. Examples of ways in which muscles might impact different aspects of behavioural repertoire.
+
+
+
+Temporal specificity of inhibition
+
+## Future directions
+
+Motor profile
+
+Imaging - test functional connectivity
+
+Functional testing of MNs or muscles
+
+Temporal precise inhibition
+
+Maybe something about modelling of PMN activity
+
+
+
+
 
 ## Screen/Design
 
@@ -556,23 +711,34 @@ The completion of this study should elucidate novel premotor components in the n
    2. ideally *in vivo* - wasn't able to get microfluidic setup working
 2. Something about efforts to implement automated tracing of the larval nervous system
 
+## Limitation
+1. n=1, neuron reconstruction
+
+***
+# Conclusion
+
+Investigation of the neural substrates for motor coordination has been well established for basal locomotion in *Drosophila* larva[@Heckscher2012,@Clark2018a,@Kohsaka2017]. However, how common musculature can be coordinated for the performance of biomechanically dissimilar behaviours is poorly understood. In the case of the larval nocifensive repertoire only a few premotor or motor neurons have been shown to modulate performance of the behaviour[@Yoshino2017,@Burgos2018]. 
+
+The completion of this study should elucidate novel premotor components in the neural circuitry underlying escape behaviours. Further it hopes to address the relative specificity of these premotor components for different behavioural modes. By extension, this could provide insight into the specific muscles necessary for the performance of these behaviours. Together these findings should help in teasing apart the neural mechanisms for coordinating distinct locomotor behaviours.
+
 
 
 ***
+
+
+
 # Notes
 
 *"Analysis of this comprehensive connectome identified PMN-MN ‘labeled line’ connectivity; PMN-MN combinatorial connectivity; asymmetric neuronal morphology; and PMN-MN circuit motifs that could all contribute to generating distinct behaviors"* - Zarin 2019
 
-For timeseries data - maybe show individual traces under the average trace - super light colour/transparent - for muscle connectivity, colour by postcynaptic muscle group
-
-heatmap plots - use single colour gradient (not viridis) - maybe green? - or color by geno - or divergent for the speed plots (show peaks and troughs, basically)
+For timeseries data - maybe show individual traces under the average trace - super light colour/transparent
 
 "We provide evidence that silencing the PMSI cohort, which includes direct DnB targets A02g and A02e, reduces rolling behavior" - [@Burgos2018]
 "DnBs also make modest connections with motor neurons innervating muscle LT1" - [@Burgos2018]
 
 "Animals displaying 360˚ rotations were classified as ‘rollers’. In 412-Gal4 VNC experiments, ‘Bend-roll’ was counted as coinci- dent C-shaped bending and 360˚ rotation, ‘bend-crawl’ was counted when animals persistently bent as they crawled and did not perform straight forward crawling, and ‘bend-only’ behavior, was counted when animals remained in a curved posture without rolling or crawling. Trachea were used as a reference for bending and rolling categorization." - Burgos 2018
 
-250 interneurons per hemisegment (Rickert *et al*., 2011)
+
 
 ## Guidelines
 
@@ -581,7 +747,7 @@ https://www.mcgill.ca/gps/thesis/thesis-guidelines/preparation
 ## Convert to pdf
 
 ```bash
-pandoc -f markdown --pdf-engine xelatex --toc --bibliography library.bib -H header.tex -o thesis.pdf thesis.md
+pandoc -f markdown --filter pandoc-crossref -H header.tex --pdf-engine xelatex --toc --bibliography library.bib --include-before-body=titlepage.tex -o thesis.pdf thesis.md
 ```
 
 ## Convert to presentation
@@ -598,6 +764,14 @@ https://indrajeetpatil.github.io/ggstatsplot/articles/web_only/effsize_interpret
 
 https://rcompanion.org/handbook/F_04.html
 
+
+
+## Future
+
+Convolutional autoencoder
+
+https://towardsdatascience.com/convolutional-autoencoders-for-image-noise-reduction-32fce9fc1763
+
 ***
 
 # To Do
@@ -612,16 +786,13 @@ Include 1792>Chrimson peran in supps. Also do peran % bar, see if it's lower. Al
 
 Venn diagram - different pipelines. Or split bar - one bar for each pipeline, proportion coloured by what it overlaps with. Could vary bar length by sum roll dur.
 
-Final aim:
-
-- Violins - roll duration by pipeline
-- Violins - latency to roll - each control and each experimental
-
 Methodology - Manual scoring
 
 Background - general discussion of escape elements (C-bend, wiggle, thrash, )
 
 4248 - change speeddiff metric to 15-30 versus 45-60
+
+Mention larval area corresponds to contour (cos larvae have volume)
 
 ***
 
@@ -645,30 +816,4 @@ Background - general discussion of escape elements (C-bend, wiggle, thrash, )
 
 
 
-
-
-|                             |             Genotype          |   Sig.  |   *r*   |
-| --------------------------- | ----------------------------- | ------- | ------- |
-| [@fig:A2_4]D | 1792     | .000 | .202 |
-|              | 1816     | .000 | .326 |
-|              | 1817     | .000 | .290 |
-| [@fig:A2_4]F | 1792     | .000 | .291 |
-|              | 1816     | .000 | .523 |
-|              | 1817     | .000 | .475 |
-| [@fig:A2_4]H | 1792     | .000 | .344 |
-|              | 1816     | .000 | .648 |
-|              | 1817     | .000 | .660 |
-|              | 2175     | .000 | .258 |
-|              | 4189     | .013 | .142 |
-| [@fig:A2_4]E | 1816     | .000 | .277 |
-|              | 1817     | .029 | .148 |
-| [@fig:A2_4]G | 1792     | .000 | .372 |
-|              | 1816     | .000 | .652 |
-|              | 1817     | .000 | .518 |
-|              | 2175     | .000 | .371 |
-|              | 4189     | .000 | .209 |
-| [@fig:A2_4]I | 1792     | .000 | .306 |
-|              | 1816     | .000 | .648 |
-|              | 1817     | .000 | .493 |
-|              | 2175     | .000 | .403 |
-|              | 4189     | .000 | .241 |
+***

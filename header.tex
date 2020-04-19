@@ -1,5 +1,6 @@
 %
 \usepackage{fontspec}
+\usepackage{textcomp}
 \usepackage{setspace}
 \doublespacing
 
@@ -30,6 +31,8 @@
 \titlespacing*{\subsubsection}{0pt}{0ex}{0ex}
 
 \newcommand{\sectionbreak}{\clearpage}
+
+\AtBeginDocument{\let\maketitle\relax} % Disable creation of default titlepage
 
 %\usepackage{sectsty}
 %\sectionfont{\clearpage}
