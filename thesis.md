@@ -313,6 +313,8 @@ using the Z values calculated from the Wilcoxon rank sum test[@Tomczak2014].
 
 For calculations of latency to crabspeed and curve we applied the *findpeaks* function to the frame-to-frame difference for a given metric, stipulating a minimum prominence threshold of 0.4 or 2, respectively. These thresholds were chosen as they were infrequently surpassed in the absence of nocifensive behaviours.
 
+Code will be made available at [https://github.com/alastairgarner/JAABA_featExtract](https://github.com/alastairgarner/JAABA_featExtract).
+
 
 
 
@@ -429,6 +431,8 @@ All 3 neurons also make premotor-to-premotor connections, but those are not repo
 
 ### A02 modulation of escape behaviour
 
+**Mention latency to C-bend**
+
 To test the relative involvement of the different A02 populations in escape behaviour we performed optogenetic co-activation Basin neurons with each of the A02 lines. Given the relative similarity in connectivity between A02e and A02g, we expected these neurons to present the greatest similarity in phenotype.
 
 Consistent with our previous observations, lines expressing A02e showed a delayed peak in the roll percentage ([@fig:A2_4]). We quantified this delay as the "latency to first roll" and found significant increases in latency for lines with expression in A02e (*1816*, *p* < .001, *r* = .326, *1817*, *p* < .001, *r* = .290) and A02f, *p* < .001, *r* = .202, compared to a positive control (*attp2;Basin>Chrimson*; [@fig:A2_4]). Further, to determine whether this delay in roll onset reflected delayed change in postural metrics, we quantified the latency to crabspeed and latency to curve (defined as the time between stimulus onset and rise in respective metric). Latency to crabspeed was significantly increased for A02f, *p* < .001, *r* =  .291, and for both A02e lines, *1816*, *p* < .001, *r* = .523 and *1817*, *p* < .001, *r* = .475 ([@fig:A2_4]). All 3 neurons showed an increase in latency to curve, but this effect was greatest for A02e (*1816*, *p* < .001, *r* = .648 and *1817*, *p* < .001, *r* = .660; [@fig:A2_4]).
@@ -486,47 +490,11 @@ These results argue that JB offers best trade off for specificity and accuracy a
 
 ![**Figure title.**(**G**) The proportion of overlap for classified rolling behaviours, by pipeline, against ground truth scoring for C-bending, rolling or both (roll & C-bend combined). (**E**) The average duration of false positive rolls scored per larvae for each of the pipelines, as compared against ground truth scoring for rolling or escape behaviour generally (roll & C-bend combined).](./thesis_aim1_5.svg){#fig:A1_5}
 
-
-
-***
-
-## Notes
-
-Despite frugal scoring of rolling behaviour, Salam 
-
-Something about JB being more punctate in labelling - less of a tendency to merge consecutive behaviours.
-
-
-
-Interestingly, this is less true for the Salam pipeline, suggesting that some of the features used to score rolling in the JB and JAABA pipelines are not captured by Salam.
-
-There is disparity in the features/metrics used to score like-named behaviours across pipelines.  Those that indicate onset of behaviour are seemingly shared, but given the magnitude in difference between the pipelines, some features are not common
-
-Discuss subjective nature of behaviour annotation
-
 ***
 
 
 
 # Discussion
-
-***
-
-**Aim 1:** Identify novel premotor interneuron populations implicated in the performance of nocifensive behaviours in *Drosophila melanogaster* larva. 
-
-**Hypothesis I:** Manipulation of premotor neuron populations necessary for noficensive behaviour will perturb performance of said behaviour. These affects should be quantifiable with metrics describing rolling behaviour as well as posture.
-
-**Hypothesis II:** Established behavioural quantification methods of different design may show discrepancies in scoring nocifensive behaviours. Genotypes presenting robust phenotypic changes should be detectable regardless of the quantitative method used.
-
-​	
-
-**Aim 2:** Characterise the relationship between anatomical connectivity and locomotor involvement across different premotor interneuron populations.
-
-**Hypothesis I:** Manipulation of premotor neurons implicated in nocifensive behaviours will also disrupt basal locomotion.  These affects should be quantifiable with metrics describing crawling and turning behaviours.
-
-**Hypothesis II:** Premotor populations that innervate similar motor neuron cohorts, with the same sign of neurotransmission (excitatory/inhibitory), will be necessary for the performance of similar locomotor patterns.
-
-***
 
 The overall objective of this study was to identify and characterise novel interneuron components involved in performance of nocifensive behaviours. By employing an optogenetic approach we were able to describe 4 groups of neurons that affected similar changes on the presentation of escape behaviours. Of these, we characterised neurons *4232* and *1816*
 
@@ -542,7 +510,7 @@ In designing a behavioural screen to identify neurons important for these behavi
 
 
 
-Upregulation of a behaviour may not indicate a neuron's involvement in the behaviour, but rather it's distrubtion of conflicting behaviours.
+Upregulation of a behaviour may not indicate a neuron's involvement in the behaviour, but rather it's distribution of conflicting behaviours.
 
 
 
@@ -554,51 +522,83 @@ Initial metrics used to quantify these behaviours were focused specifically arou
 
 
 
-## Behavioural specificity of neurons
+## Role of A02e in escape
 
 We wanted to whether neurons showed specificity in locomotor modulation between behaviours
 
-Our behavioural analyses implicate the inhibitory premotor neuron A02e, labelled by split-GAL4 line *1816*, in the performance of nocifensive behaviours. Activation of A02e decreases body curvature during stimulation of escape behaviour, while silencing A02e increases said curvature. Interestingly, activating or silencing A02e does not results in changes to curvature during normal exploratory behaviours, which include head casting and turning (change of direction) behaviours. Despite visual similarities between some of these behaviours (C-bend and head cast) these results suggest that appropriate recruitment of A02e is more important for the performance of nocifensive behaviours than for basal locomotor behaviours.
+Our behavioural analyses implicate the glutamatergic, inhibitory premotor neuron A02e, labelled by split-GAL4 line *1816*, in the performance of nocifensive behaviours. This manifests as a increased latency to the onset of roll bouts as well as latency to curvature and crabspeed. Activation of A02e decreases body curvature during stimulation of escape behaviour, while silencing A02e increases said curvature. 
+
+
+
+## Presynaptic input to A02e
+
+Interestingly, A02e is monosynaptically innervated by the second-order nociceptive sensory neurons Down-and-Back (DnB, or A09l), which are sufficient to trigger nocifensive behaviours[@Burgos2018] ([@fig:circuitry]). Silencing DnB neurons with a TNT construct leads to a decrease in the percentage of time that larvae spent rolling[@Burgos2018]. Further, this also reduced the curvature of larvae during rolls and attempted rolls, leading the authors to conclude that DnB neurons are important for generating C-bending and rapid rolling[@Burgos2018].
+
+DnB neurons are cholinergic and thus excitatory neurons, suggesting that they activate A02e neurons to elicit escape behaviours. As such it is surprising that activation of A02e neurons or silencing DnB neurons (preventing DnB-directed activation of A02e neurons) would result in the same phenotype - namely reduced body curvature.
+
+One possible explanation for this concerns the inherent left-right asymmetry synonymous with escape behaviours. Given that the first movement produced during escape is a unilateral bending of the head and tail, muscle contraction should be asymmetric[@Lahiri2011]. Therefore MN activation and presumably also PMN activation should present asymmetry. It is possible that endogenous activity of DnB neurons evokes asymmetric activity of A02e neurons, that may promote the performance of escape behaviours. By contrast, the optogenetic manipulations presented in this thesis activate the entire population of A02e neurons. As A02e neurons inhibit motor neurons innervating dorsal longitudinal muscles on either side of the larval midline, such bilateral inhibition may well be incompatible with the performance of C-bending behaviour.
+
+Mention Burgos silence PMSIs?
+
+
+
+## Behavioural specificity of neurons
+
+Larval crawling behaviours implement a stereotyped order of muscle contraction[@Heckscher2012] which demonstrate the ordered activation of different functional muscle groups.
+
+ To ensure this 
+
+
+
+Open question, whether there is similarity in recruitment of motor cohorts across different behaviours. For instance, functional groups of muscles for forward and backward crawling are different. Functional groups are determined by behaviour-specific recruitment of PMNs
+
+While interested in interneurons affecting escape behaviours, we also wanted to determine whether the same neurons were important for basal locomotor behaviours.
+
+
+
+one such metric was curvature - results
+
+Activation of A02e decreases body curvature during stimulation of escape behaviour, while silencing A02e increases said curvature. Interestingly, activating or silencing A02e does not result in changes to curvature during normal exploratory behaviours, which typically arise with head casting and turning (change of direction) behaviours. Despite visual similarities between some of these behaviours (C-bend and head cast) these results suggest that appropriate recruitment of A02e is more important for the performance of nocifensive behaviours than for basal locomotor behaviours.
+
+
+
+the other was crawling - results
 
 This results is somewhat surprising given that A02e belongs to a larger population of lineage-related neurons, termed PMSIs, that have been shown to regulate the speed of peristalsis during crawling[@Kohsaka2014]. As of present, few of the individual A02 neurons have been behaviourally tested, but our data suggests
 
-In fact, sustained activation of the PMSI population causes flaccid paralysis in larvae.
+
+
+A02e belongs to a larger population of lineage-related neurons, termed PMSIs, that have been previously tested in escape behaviours. Burgos *et al.*[@Burgos2018] silenced the the PMSI population with a inwardly rectifying Potassium channel (Kir)[@Baines2001,@Paradis2001] and activated escape behaviours with a thermal nociceptive assay. They observed decreases in the number of rolls per larvae but, interestingly, saw no change to the rolling bout length or the percent of animals exhibiting bending and rolling.
 
 
 
-suggest that appropriate activation of the inhibitory premotor neuron A02e, labelled by split-GAL4 line *1816*, is more important for the performance of escape behaviours than for basal locomotor behaviours.
+There may be changes to crawling imperceptible to 
 
-Idea that 
-
-
-
-Unilateral behaviour - presuambly require asymmetry of neuron firing. Cannot achieve this with our present activation
+talk about redundancies in either behaviour. Even in rolling (they still roll fairly well)
 
 
 
-## Implication of different muscles in escape behaviour
+## A role for lateral and dorsal muscles in escape?
+
+While motor profiles have been constructed in great detail for larval crawling behaviours[@Heckscher2012,@Zarin2019a], to date no group has determine the order of muscle contraction describing either C-bending or rolling behaviours. This limits our ability to make predictions about which MNs, and therefore PMNs, are involved in the performance of these behaviours. However, functional assays of PMNs can offer insight into the muscles necessary for nocifensive behaviours.
+
+We sought to compare the behavioural phenotype of premotor neurons upstream of overlapping, yet distinct motor cohorts. To do this we assayed the affects of optogenetic activation of three lineage-related inhibitory premotor neurons, A02e, A02f and A02g, on the performance of escape behaviours.
 
 
 
-Discuss possible implication of DLs in C-bend
+The most striking result was the observation that activation of either A02e or A02f, but not A02g, increased the latency to produce C-shape bending as well as rolling. Despite this, larvae for all lines were still able to produce both behaviours, suggesting that the endogenous activity of these neurons is not strictly necessary for the performance of escape behaviours.
+
+A02e and A02f share downstream targets in the dorsal longitudinal muscles, which are not downstream of A02g. This suggests that the DL muscles may well be recruited during the initiation of escape behaviours, perhaps more specifically for the performance of C-bending behaviours. Interestingly, the lateral-most of these DL muscles (muscle 3 & 4) are also downstream of the Saaghi-1 neuron, which has previously been implicated in the maintenance of left-right symmetry during basal locomotion[@Heckscher2012]. Therefore it is possible that these muscles are recruited to generate the asymmetric C-shape bend indicative of early escape.
+
+An alternative hypothesis assumes the delayed onset of C-bending affected by A02e and A02f stems from the inhibition of different cohorts of muscles. A02f is unique for being the only neuron assayed that is upstream of lateral transverse muscles. LT muscles have previously been crucial for self-righting behaviours, which share similar motions to nocifensive rolling[@Picao-Osorio2015]. Thus it is plausible that activation of A02f, and subsequent inhibition of LTs, disrupts the onset of C-bending. This is corroborated by the fact LT-projecting motor neurons receive direct innervation from two populations of escape-sufficient, second order sensory neurons, mCSI neurons[@Yoshino2017] DnB[@Burgos2018]. At present, these represent the shortest paths between sensory and motor neurons (2 and 3 synapses, respectively) within the nocifensive circuitry, suggesting LT muscles may well be the first muscles activated during escape.
+
+A02g was the only neuron assayed to be upstream of the ventral orbital (VO) muscles. Given that activation of A02g induced no change in behaviour latency, we predict that the VO muscles likely play little role in the initiation of escape behaviours. 
 
 
 
 Discuss A02f result for single activation. If animal cannot contract lateral muscles, perhaps it cannot continue peristalsis. Other behavioural modes activated instead.
 
-
-
-Is C-bend necessary for roll?
-
-
-
-*4232* - limited conclusions without identity of the neuron
-
-
-
-Behavioural screen elucidated many lines that produced significant results
-
-However, fewer of these produced results with a large magnitude of change
+DL muscles have previously been implicated in the performance of tail-lifting motions, triggered by activation of the A18a (cholinergic lateral interneuron 2, CLI2)[@Hasegawa2016] or A03a5[@Takagi2017] premotor neurons. While larvae do occasionally present tail-lifting during escape behaviours, these are not necessarily observed during the early phase of response.
 
 
 
@@ -606,17 +606,17 @@ However, fewer of these produced results with a large magnitude of change
 
 ## Analytical methods for quantifying escape behaviours
 
-Throughout the field of neuroethology there is an implicit requirement that a behaviour of interest be readily identifiable/observable and, in many cases, quantifiable. In other words, to determine the involvement of a neuron or population of neurons in a given behaviour, one needs to parameterise the behaviour. In its simplest form this quantification is produced manually, by observation. However the development of algorithms for behaviour detection have improved both the speed and consistency of behaviour quantification. Within *Drosophila* larvae research, such algorithms have expedited the performance of behavioural screening[@Ohyama2013, @Gershow2012].
+Throughout the field of neuroethology there is an implicit requirement that a behaviour of interest be readily identifiable/observable and, in many cases, quantifiable. In other words, to determine the involvement of a neuron or population of neurons in a given behaviour, one needs to parameterise the behaviour. In its simplest form this quantification is produced manually, by observation. However the development of algorithms for behaviour detection have improved both the speed and consistency of behaviour quantification. Within *Drosophila* larvae research, such algorithms have expedited the performance of behavioural screening[@Ohyama2013,@Gershow2012].
 
-Across the field different behavioural detection methods are built on different philosophies. Some pipelines are built using user-written behavioural definitions, while others implement supervised machine learning methods to train behaviour classifiers[@Kabra2013,@Jovanic2017]. Regardless of design, the behavioural definition entrained by a given pipeline is based on the subjective annotation of the behaviour by the user. As such, the degree to which these different pipelines achieve consensus in the labelling of like-named behaviours is unknown.
+Across the field different behavioural detection methods are built on different philosophies. Some pipelines are built using user-written behavioural definitions, while others implement supervised machine learning methods to train behaviour classifiers[@Kabra2013,@Jovanic2017]. Regardless of design, each pipeline was programmed/trained to classify 'roll' bouts based on subjective, user-defined annotations of rolling. As such, the degree to which these different pipelines achieve consensus in the labelling of like-named behaviours is unknown.
 
-We wanted to evaluate the whether there were discrepancies in the scoring of rolling behaviour across different pipelines. In particular we wanted to determine whether the modulation of escape behaviours affected by A02e was detectable beyond our particular methodology. 
+We sought to evaluate the whether there were discrepancies in the scoring of rolling behaviour across different pipelines. In particular we wanted to determine whether the modulation of escape behaviours affected by A02e was detectable outside our particular methodology.
 
-Here we show that, despite 
+Our results illustrated that, regardless of pipeline, co-activation of A02e with escape behaviours induces an increase in the latency to roll. The magnitude of the shift in latency differs by pipeline, suggesting disparity in the features used by each pipeline to detect the onset of rolling. For the case of the Salam pipeline this is dictated by the crabspeed metric, as per its written definition of a 'roll'[@Ohyama2013]. As the other pipelines utilise machine learning methods for the detection of rolling events, it is not possible to gauge the features used to detect behaviour onset[@ref]. However
 
-Suggests that there are common features between the pipelines that encode the onset of rolling behaviour. In terms of Salam, this presumably to delineated by crabspeed, as an the initial peak in crabspeed triggers behaviour onset[@Ohyama2013]. In terms of other pipelines, it is difficult to know given the 'black-box' nature of machine learning algorithms.
+There is greater variation in the scoring of A02e coactive behaviours - need Venn diagram
 
-Either way, suggests that the behavioural changes in  A02e
+
 
 Clearly there are differences between these pipelines. Choice of pipeline should be *a priori*. May depend whether you want the most specific roll classification or most accurate roll classification. 
 
@@ -632,21 +632,13 @@ However, all of these pipelines take as their input a common feature set - namel
 
 
 
-While original detection methods rely on manually defined behaviours[@Ohyama2013], other classification methods have implemented machine learning techniques to train
-
 
 
 
 
 "Systems that use motorized stages to follow individual worms at high resolution allow precise quantification of behavior1–3, but screening for stochastic behaviors is still highly labor- and time-intensive. Systems that monitor many worms simultaneously on a single plate4–6" - Swierczek
 
-Classical behaviour scoring has relied on manual definitions of behaviour
 
-More modern methods implement machine learning to try and classify behaviour
-
-Relative  
-
-Classically, behaviours have quantified with discrete 
 
 Methods for quantifying escape behaviours don't parse finer elements of behaviour
 
@@ -676,43 +668,13 @@ Imaging - test functional connectivity
 
 Functional testing of MNs or muscles
 
+Stochastic/spatially restricted activation of certain neurons/muscles
+
 Temporal precise inhibition
 
 Maybe something about modelling of PMN activity
 
 
-
-
-
-## Screen/Design
-
-1. Design - should have thought of what metrics to analyse ahead of time, considering we wanted to look at potentially subtle phenotypes. For instance onset/offset of curve, change of direction, etc. All things we have no power to resolve. 
-   1. Also, maybe a shorter bout of stimulation might have focused the findings. 15/30s of stimulation includes lots of flavours of rolling behaviour that we have no ability to quantify yet.
-2. Variability of the control data. 
-
-
-
-## Behavioural Testing
-
-1. Acute neuronal inhibition - would be really nice
-   1. Failed to develop setup for Shibire
-   2. limited success with GtACR1
-
-
-
-## Behaviour Scoring
-
-
-
-## Perspectives
-
-1. Imaging 
-   1. ex vivo
-   2. ideally *in vivo* - wasn't able to get microfluidic setup working
-2. Something about efforts to implement automated tracing of the larval nervous system
-
-## Limitation
-1. n=1, neuron reconstruction
 
 ***
 # Conclusion
