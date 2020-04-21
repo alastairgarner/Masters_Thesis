@@ -170,31 +170,6 @@ Zarin *et al*.[@Zarin2019a] undertook the mammoth effort of reconstructing all 6
 
 
 
-
-
-
-## Other papers
-
-Grueber 2002 - first described C4da's
-
-Hasegawa 2016 - CLI1, CLI2
-​Yoshikawa 2016 - LLNs
-
-Hughes 2007 - 'Mission accomplished' idea
-Fushiki 2016 - A27h - intersegmental coord
-Takagi 2017 - Wave neuron - Forward vs Backward crawl
-Jovanic 2016 - Lateral disinhibition
-Kaneko 2017 - serotonergic modulation of MD IVs
-Schneider-Mizell 2016
-Gerhard 2017
-Carreira-Rosario 2018
-
-Wreden 2017
-
-Lahiri 2011
-
-
-
 # Research statement
 
 ## Rationale
@@ -502,26 +477,6 @@ Identified different groups of phenotypes,  including 4232 and 1816
 
 
 
-## Novel interneuron phenotypes
-
-Larval escape behaviour encompass a number of discrete actions, including C-shape bending, rolling and fast crawling. These behaviours presumably require the activation of distinct motor programs[@Lahiri2011] and, as such, require unique patterns of premotor activity for their coordination. 
-
-In designing a behavioural screen to identify neurons important for these behaviours, we anticipated that artificial activation of behaviour-necessary neurons may perturb the performance of the different components of the escape repertoire.
-
-
-
-Upregulation of a behaviour may not indicate a neuron's involvement in the behaviour, but rather it's distribution of conflicting behaviours.
-
-
-
- most obvious indication of a neuron's involvement would be the 
-
-Initial metrics used to quantify these behaviours were focused specifically around bouts of rolling behaviour (roll probability, amplitude, duration, etc). These analyses revealed many significant results([@fig:supp1])
-
-
-
-
-
 ## Role of A02e in escape
 
 We wanted to whether neurons showed specificity in locomotor modulation between behaviours
@@ -534,7 +489,7 @@ Our behavioural analyses implicate the glutamatergic, inhibitory premotor neuron
 
 Interestingly, A02e is monosynaptically innervated by the second-order nociceptive sensory neurons Down-and-Back (DnB, or A09l), which are sufficient to trigger nocifensive behaviours[@Burgos2018] ([@fig:circuitry]). Silencing DnB neurons with a TNT construct leads to a decrease in the percentage of time that larvae spent rolling[@Burgos2018]. Further, this also reduced the curvature of larvae during rolls and attempted rolls, leading the authors to conclude that DnB neurons are important for generating C-bending and rapid rolling[@Burgos2018].
 
-DnB neurons are cholinergic and thus excitatory neurons, suggesting that they activate A02e neurons to elicit escape behaviours. As such it is surprising that activation of A02e neurons or silencing DnB neurons (preventing DnB-directed activation of A02e neurons) would result in the same phenotype - namely reduced body curvature.
+DnB neurons are cholinergic and thus excitatory neurons, suggesting that they activate A02e neurons to elicit escape behaviours. As such it is surprising that activation of A02e neurons or silencing DnB neurons (preventing DnB-directed activation of A02e neurons) would result in the same phenotype - reduced body curvature.
 
 One possible explanation for this concerns the inherent left-right asymmetry synonymous with escape behaviours. Given that the first movement produced during escape is a unilateral bending of the head and tail, muscle contraction should be asymmetric[@Lahiri2011]. Therefore MN activation and presumably also PMN activation should present asymmetry. It is possible that endogenous activity of DnB neurons evokes asymmetric activity of A02e neurons, that may promote the performance of escape behaviours. By contrast, the optogenetic manipulations presented in this thesis activate the entire population of A02e neurons. As A02e neurons inhibit motor neurons innervating dorsal longitudinal muscles on either side of the larval midline, such bilateral inhibition may well be incompatible with the performance of C-bending behaviour.
 
@@ -590,15 +545,9 @@ The most striking result was the observation that activation of either A02e or A
 
 A02e and A02f share downstream targets in the dorsal longitudinal muscles, which are not downstream of A02g. This suggests that the DL muscles may well be recruited during the initiation of escape behaviours, perhaps more specifically for the performance of C-bending behaviours. Interestingly, the lateral-most of these DL muscles (muscle 3 & 4) are also downstream of the Saaghi-1 neuron, which has previously been implicated in the maintenance of left-right symmetry during basal locomotion[@Heckscher2012]. Therefore it is possible that these muscles are recruited to generate the asymmetric C-shape bend indicative of early escape.
 
-An alternative hypothesis assumes the delayed onset of C-bending affected by A02e and A02f stems from the inhibition of different cohorts of muscles. A02f is unique for being the only neuron assayed that is upstream of lateral transverse muscles. LT muscles have previously been crucial for self-righting behaviours, which share similar motions to nocifensive rolling[@Picao-Osorio2015]. Thus it is plausible that activation of A02f, and subsequent inhibition of LTs, disrupts the onset of C-bending. This is corroborated by the fact LT-projecting motor neurons receive direct innervation from two populations of escape-sufficient, second order sensory neurons, mCSI neurons[@Yoshino2017] DnB[@Burgos2018]. At present, these represent the shortest paths between sensory and motor neurons (2 and 3 synapses, respectively) within the nocifensive circuitry, suggesting LT muscles may well be the first muscles activated during escape.
+An alternative hypothesis assumes the delayed onset of C-bending affected by A02e and A02f stems from the inhibition of different cohorts of muscles. A02f is unique for being the only neuron assayed that is upstream of lateral transverse muscles. LT muscles have previously been identified as critical for self-righting behaviours, which share similar motions to nocifensive rolling[@Picao-Osorio2015]. Thus it is plausible that activation of A02f, and thus inhibition of LTs, disrupts the onset of C-bending. This is corroborated by the fact LT-projecting motor neurons receive direct innervation from two populations of escape-sufficient, second order sensory neurons, mCSI[@Yoshino2017] and DnB neurons[@Burgos2018]. At present, these represent the shortest paths between sensory and motor neurons (2 and 3 synapses, respectively) within the nocifensive circuitry, suggesting LT muscles may well be the first muscles activated during escape.
 
 A02g was the only neuron assayed to be upstream of the ventral orbital (VO) muscles. Given that activation of A02g induced no change in behaviour latency, we predict that the VO muscles likely play little role in the initiation of escape behaviours. 
-
-
-
-Discuss A02f result for single activation. If animal cannot contract lateral muscles, perhaps it cannot continue peristalsis. Other behavioural modes activated instead.
-
-DL muscles have previously been implicated in the performance of tail-lifting motions, triggered by activation of the A18a (cholinergic lateral interneuron 2, CLI2)[@Hasegawa2016] or A03a5[@Takagi2017] premotor neurons. While larvae do occasionally present tail-lifting during escape behaviours, these are not necessarily observed during the early phase of response.
 
 
 
@@ -612,7 +561,7 @@ Across the field different behavioural detection methods are built on different 
 
 We sought to evaluate the whether there were discrepancies in the scoring of rolling behaviour across different pipelines. In particular we wanted to determine whether the modulation of escape behaviours affected by A02e was detectable outside our particular methodology.
 
-Our results illustrated that, regardless of pipeline, co-activation of A02e with escape behaviours induces an increase in the latency to roll. The magnitude of the shift in latency differs by pipeline, suggesting disparity in the features used by each pipeline to detect the onset of rolling. For the case of the Salam pipeline this is dictated by the crabspeed metric, as per its written definition of a 'roll'[@Ohyama2013]. As the other pipelines utilise machine learning methods for the detection of rolling events, it is not possible to gauge the features used to detect behaviour onset[@ref]. However
+Our results illustrated that, regardless of pipeline, co-activation of A02e with escape behaviours induces an increase in the latency to roll. The magnitude of change to latency differs by pipeline, suggesting disparity in the features used by each pipeline to detect the onset of rolling. For the case of the Salam pipeline this is dictated by the crabspeed metric, as per its written definition of a 'roll'[@Ohyama2013]. As the other pipelines utilise machine learning methods for the detection of rolling events, it is not possible to gauge the features used to detect behaviour onset[@ref]. However
 
 There is greater variation in the scoring of A02e coactive behaviours - need Venn diagram
 
@@ -622,57 +571,33 @@ Clearly there are differences between these pipelines. Choice of pipeline should
 
 
 
-the definition of rolling is subjective by nature
-
-thus, regardless of complexity of classification, all methods are inherently subjective
-
-
-
-However, all of these pipelines take as their input a common feature set - namely, the 
-
-
-
-
-
-
-
 "Systems that use motorized stages to follow individual worms at high resolution allow precise quantification of behavior1–3, but screening for stochastic behaviors is still highly labor- and time-intensive. Systems that monitor many worms simultaneously on a single plate4–6" - Swierczek
-
-
-
-Methods for quantifying escape behaviours don't parse finer elements of behaviour
-
-Quantification of discrete behaviours - doesn't necessarily explain how
-
-
 
 
 
 ## Limitations
 
-Size-match controls
+One of the largest factors constraining the interpretation of our results was a limited repertoire of metrics describing posture, direction and velocity. 
 
-Lack of motor profile.
+limited power for identifying specific postures or components of escape repertoire. The escape repertoire consists of C-shape bending, wiggling and rolling, but at present we only have classifiers for one of these behavioural modes.
 
-Detection of motions, rather than behaviours, would have been useful here. Ideally would have been nice to parse C-bend, wiggle, thrash, and roll (strict definition). But as of yet no methods, other than manual scoring, offer this luxury. Examples of ways in which muscles might impact different aspects of behavioural repertoire.
+We circumvented this issue by inferring C-shape bending using the postural metric 'curve', as calculated by the Choreography package[@Swierczek2011]. However larvae can display high curvature separately with a head bend, tail bend or from a coincident head and tail bend either in the same direction (C-shape) or opposite directions (S-shape). While our observations of decreased curvature still likely represent decreases in C-shape posture, we cannot conclude this absolutely.
 
+Similarly, while our definition of rolling behaviour is delineated by crabspeed, the strictest definition of a roll requires that an identifiable body landmark (frequently the trachea) rotate through 360&deg;C around the anteroposterior axis. Unfortunately, the system we implement for our behaviour assays (MultiWorm Tracker, MWT[@Swierczek2011]) outputs larval outlines, rather than video, preventing this quantification.
 
+For the sake of the split-GAL4 lines identified in this thesis, our preexisting metrics suffice. However to detect subtler phenotypes it may become necessary to develop a breadth of objective metrics describing posture, direction and velocity. These should include head and tail specific metrics as well as angular speed and angle of revolution to describe rolls.
 
-Temporal specificity of inhibition
+Another factor limiting the interpretation of our results pertains to the inferences of functional connectivity based on anatomical connectivity. For example, while A02e makes 16 inhibitory synapses per hemisegment onto MN13, this does not guarantee that MN13 shows reduced activity when A02e is optogenetically stimulated. This is due to the fact that we cannot infer the efficacy of the connection from synapse number alone, nor can we tell which other inputs to the motor neuron may be active during stimulation of escape behaviours. Specifically, our prediction that VO muscles are not important for the initiation of escape behaviour may be a false negative prediction, where A02g innervation of VO motor neurons is not sufficiently efficacious to affect a behavioural change. To address these issues we will need to perform functional imaging experiments to determine the endogenous activity of both PMNs and MNs, or modulate the activity of MNs or muscles directly during escape behaviour.
+
+Something about head/tail lifting?
 
 ## Future directions
 
-Motor profile
+A few key sets of experiments would greatly complement the research in this study. This first is the development of a motor profile for escape behaviours. This has already been achieved for crawling behaviours by imaging muscle calcium transients, a proxy for muscle activation, across all abdominal segments in the larva[@Zarin2019a]. Conducting this imaging for escape behaviours is complicated by the movement of muscles in the z-axis, particularly during rolling behaviours. However the use of split-GAL4 lines labelling discrete muscle populations, or the use of fillet preparations may help facilitate this work. This would be an invaluable, as determining functionally co-active groups of muscles will allow for predicitions of critical patterns generating circuits based on anatomical connectivity.
 
-Imaging - test functional connectivity
+Further, it will become important to establish the functional connectivity of the PMNs identified. Regarding presynaptic input, it is interesting to evaluate whether these neurons are indeed activated by optogenetic activation of upstream partners, or following the presentation of naturalistic nociceptive stimuli. Similarly it will be necessary to determine whether activation of these PMNs elicits the expected change in motor neuron activity. These questions could be answered by the co-application of 2-photon imaging and optogenetics in dissected larval nervous systems.
 
-Functional testing of MNs or muscles
-
-Stochastic/spatially restricted activation of certain neurons/muscles
-
-Temporal precise inhibition
-
-Maybe something about modelling of PMN activity
+Finally, questions remain regarding the naturalistic spatial and temporal activation of both PMNs and MNs. Do PMNs show different patterns of recruitment along both the anteroposterior and left-right axes? In what order are PMNs recruited during nocefinsive behaviours? These questions will be best addressed with functional studies imaging the activity of PMNs and MNs during the activation of escape behaviours. This could be achieved with *in vivo* imaging of neuronal activity, using calcium indicators (GCaMP), which may be possible with the application of microfluidic devices[@ref]. Alternatively, if a fictive nocifensive behaviour paradigm can be developed similar to those for crawling behaviours[@Pulver2015], the same questions could be addressed in a dissected preparation.
 
 
 
