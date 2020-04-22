@@ -1,0 +1,7 @@
+### Accounting for variability
+
+As with any behavioural experimentation, there was likely day-to-day variability across our experiments. Specifically we were wary of variation in larval size, as the probability of rolling varies with larval age and, by extension, size (data not shown). As such we restricted experiments to third instar larvae and rejected animals with an average area < 2.5mm^2^, below which roll likelihood decreases. 
+
+After implementation of this threshold we did observe differences in the average size of larvae between genotypes ([@fig:supp1]A). These deviations fell in the range of $\pm$2 mm^2^. This range was deemed tolerable given the probability of rolling, in most cases, varied by less than $\pm$20% ([@fig:supp1]B). 
+
+To determine within-genotype variability we looked at average larval size across different trials for our control data and observed median values from 2.5 to 5mm^2^ ([@fig:supp1]). Interestingly we also saw a large degree of variation in metrics describing rolling behaviours, including per-animal time-spent-rolling ([@fig:supp1]) and average number of rolls ([@fig:supp1]). Whether the variability in these specific metrics is explained by variation in larval size has yet to be determined.

@@ -71,8 +71,6 @@ The somatic musculature of *Drosophila* larvae is highly stereotyped and well de
 
 
 
-## 
-
 ## Motor cohorts vary by behaviour
 
 The anatomical grouping of muscles also allude to potential functional grouping. In fact, functionally co-active cohorts of muscles have previously been identified for crawling behaviours. In describing the motor profile for peristaltic crawling, Heckscher *et al*. identified that longitudinal muscles (both ventral and dorsal) contracted prior to transverse muscles during posterior to anterior waves of contraction[@Heckscher2012].  This suggested that their was separable premotor circuitry controlling the activity of these different function muscle cohorts.
@@ -97,25 +95,19 @@ Identification of other premotor neurons associated with left-right asymmetric p
 
 ## Premotor circuits coordinate motor recruitment 
 
-Zwart2016, Kohsaka2019
-
 While premotor neurons recruit specific muscle groups, the performance of behaviour requires the coordinated temporal activation of different motor cohorts. Other premotor neurons have been implicated in this coordination. 
 
 One example of such coordination is the aforementioned phase delay between longitudinal and transverse muscles during forward crawling. To identify potential candidate neurons encoding this delay, Zwart *et al*.[@Zwart2016] performed TEM reconstruction of the PMNs upstream of motor neurons innervating the lateral transverse muscles ([@fig:muscles]). They identified a single inhibitory GABAergic premotor neuron (iIN-1) that was exclusively upstream of LT muscles. Silencing iIN-1 resulted in simultaneous contraction of longitudinal and transverse muscle during peristalsis, suggesting that it was sufficient to mediate the phase delay between longitudinal and transverse muscles.
 
-Feed-forward inhibition
+Similarly, Kohsaka *et al.* described sets of neurons, termed Ifb-Fwd, that contribute to antagonism between longitudinal and transverse muscle activation[@Kohsaka2019]. During forward waves of peristalsis Ifb-Fwd project to the previous segment and innervate two groups of PMNs. The first group provides excitatory innervation of motor neurons projecting to the transverse muscles. The other group affects inhibitory innervation of motor neurons projecting to the longitudinal muscles. This circuit mechanism complements that of iIN-1, as this circuit effectively switches of longitudinal muscle activity during the transverse muscle activation phase[@Kohsaka2019].
 
-While iIN-1 coordinates motor cohorts within a single abdominal segment, neurons implementing a similar 
-
-Kohsaka *et al.* described two neurons, Ifb-Fwd and Ifb-Bwd, that also contribute to antagonism between longitudinal and transverse muscle activation[@Kohsaka2019]. During forward waves of peristalsis Ifb-Fwd fed back
-
-
-
-Feedback-inhibition of antagonistic muscle.
+Together, these mechanisms use feedforward inhibition and feedback inhibition, respectively, to entrain phase-delay and ensure two antagonistic muscle cohorts are not simultaneously active. While these circuit principles likely also apply for nocifensive behaviour, the identity of the neurons affecting this coordination are unknown. 
 
 
 
 ## A premotor connectome
 
-Zarin *et al*.[@Zarin2019a] undertook the mammoth effort of reconstructing all 60 MNs and 236 PMNs in a single TEM segment of the larval nervous system. With this they sought to answer how a common population of muscles could generate two distinct behavioural programs, that of forward and backward crawling. Using calcium imaging of patterns of pan-muscle activation they identified differences in the order of muscle recruitment for either behavioural mode. PMN reconstruction did not elucidate specific neurons innervating functionally distinct muscle groups for either behaviour, suggesting combinatorial coding is required to recruit behaviour-specific functional muscle groups. Further, they developed a recurrent network model of PMN and MN neurons across two segments, constrained by the measured connectivity, and demonstrated that the patterns of connectivity in this motor network was sufficient to elicit comparable patterns of muscle contraction for both forward and backward peristalsis. The model was successfully validated on known PMN activity for A14a, A18j, A01c (iIN-1,eIN-1,eIN-2) [@Zwart2016] and A18a[@Hasegawa2016], as well as recordings from novel PMNs (A31k, A06l and A23a)[@Zarin2019a]. This work will prove invaluable for future research, allowing phenotypic and functional studies to be grounded in terms of anatomic connectivity.
+Premotor neurons identified as necessary or important for specific behaviours eventually need to be grounded in terms of anatomic connectivity. Accordingly, Zarin *et al*. produced a premotor connectome for a single abdominal segment of the larval nervous system, by reconstructing all 60 MNs and 236 PMNs in a ssTEM volume[@Zarin2019a]. They used this connectome to develop a model network, whose connectivity matched there anatomical data. The model demonstrated patterns of motor activity that were comparable to patterns of muscle contraction for both forward and backward peristalsis. Further, they showed that the modelled PMNs showed temporal patterns of activity that matched those recorded in actual larvae, including the aforementioned iIN-1[@Hasegawa2016]. This data suggests that the organisation of directly premotor circuitry is sufficient to coordinate two different patterns of muscle activation[@Zarin2019a].
+
+One interesting question is whether or not these 236 PMNs are sufficient to coordinate the performance of nocifensive behaviours. However, this dataset cannot answer this question without a corresponding profile of motor or muscle activity for nocifensive behaviour. In lieu of this, we can perform functional assays to implicate premotor populations in the performance of nocifensive behaviours, then refer to their connectivity to hypothesise the functional role of these neurons.
 
