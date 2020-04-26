@@ -1503,8 +1503,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="332.97212"
-     inkscape:cy="179.50061"
+     inkscape:cx="421.19439"
+     inkscape:cy="319.17598"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -5138,8 +5138,8 @@
          y="45.765255"
          style="font-weight:normal;font-size:7.05555534px;fill:#000000;fill-opacity:1;stroke-width:0.26458332">H</tspan></text>
     <path
-       style="fill:none;stroke:#818181;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 3.5520383,29.221005 H 219.45205"
+       style="fill:none;stroke:#818181;stroke-width:0.794;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 67.241026,29.221005 H 219.45205"
        id="path1805"
        inkscape:connector-curvature="0" />
   </g>
