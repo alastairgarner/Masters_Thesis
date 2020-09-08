@@ -1,0 +1,19 @@
+### This file defines the command line arguments to pass to pandoc
+
+#resource-path: [.] # Keep this line! Ensures that pandoc looks in the current directory for the additional files
+
+#input-files:
+#- thesis.md
+
+filters:
+- pandoc-crossref # The filter that allows referencing and 
+
+pdf-engine: xelatex # Use xelatex, rather than latex (necessary for custom fonts)
+
+bibliography: library.bib # The references list exported from Mendeley/Endnote
+
+include-in-header: header.tex # Loads all the latex packages we need
+
+include-before-body: titlepage.tex # Inserts a custom title page before the table of contents
+
+table-of-contents: True

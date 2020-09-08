@@ -164,7 +164,7 @@ In laboratory conditions rolling behaviour can be readily elicited by activation
 
 
 
-![**Escape repertoire of *Drosophila* larvae.** (**A**) C-shape bend involves contraction of the head and tail in the same direction. (**B**) One complete roll represents a full 360 degree rotation around the anteroposterior body axis. (**C**) Fast crawling is biomechanicallly similar to normal crawling but with an increased frequency of peristalsis.](./bend_sequence.svg){#fig:repertoire}
+![**Escape repertoire of *Drosophila* larvae.** (**A**) C-shape bend involves contraction of the head and tail in the same direction. (**B**) One complete roll represents a full 360 degree rotation around the anteroposterior body axis. (**C**) Fast crawling is biomechanicallly similar to normal crawling but with an increased frequency of peristalsis.](./figures/bend_sequence.svg){#fig:repertoire}
 
 
 
@@ -182,7 +182,7 @@ Interestingly, the neurons discovered thus far are differentially implicated in 
 
 
 
-![**Neural circuitry underlying nocifensive behaviour.** Neurons highlighted in red are sufficient, when activated, to elicit nocifensive behaviour. The musculature is grouped into transverse (LT) and longitudinal (DL,DO,VL,VO) muscles for simplicity. The downstream partners of Goro, A08n and DP-ilp7 are not known.](./circuit_map.svg){#fig:circuitry}
+![**Neural circuitry underlying nocifensive behaviour.** Neurons highlighted in red are sufficient, when activated, to elicit nocifensive behaviour. The musculature is grouped into transverse (LT) and longitudinal (DL,DO,VL,VO) muscles for simplicity. The downstream partners of Goro, A08n and DP-ilp7 are not known.](./figures/circuit_map.svg){#fig:circuitry}
 
 ## Larval musculature
 
@@ -192,7 +192,7 @@ Given that the Ib-type MNs make one-to-one connections with the somatic muscles,
 
 
 
-![**Larval musculature and motor neurons.** Lateral schematic of the somatic musculature of a single abdominal hemisegment. The muscles are arranged as per the cartoon larva (bottom-right), with the head to the left. The ventral nerve cord (VNC) is coloured dark grey. Each of the somatic muscles is innervated by a single big bouton (Ib) type motor neuron of same name. Common motor neuron pseudonyms are listed apposed to the numerical labels. Muscles are grouped anatomically by their position on the dorsolateral axis and their orientation.](./Thesis_musculature.svg){#fig:muscles}
+![**Larval musculature and motor neurons.** Lateral schematic of the somatic musculature of a single abdominal hemisegment. The muscles are arranged as per the cartoon larva (bottom-right), with the head to the left. The ventral nerve cord (VNC) is coloured dark grey. Each of the somatic muscles is innervated by a single big bouton (Ib) type motor neuron of same name. Common motor neuron pseudonyms are listed apposed to the numerical labels. Muscles are grouped anatomically by their position on the dorsolateral axis and their orientation.](./figures/Thesis_musculature.svg){#fig:muscles}
 
 
 
@@ -408,7 +408,7 @@ To elucidate possible candidates for neurons involved in nocifensive rolling beh
 
 For each split-GAL4 line tested (which we will refer to by the last four digits in their name), we achieved 50 < *n* < 250 animals, across an average of 4 replications over multiple days. Lines where fewer than 50 animals were tested, were ignored. For statistical analysis, experiments were only compared to those controls performed on the same-day, to account for day-to-day variance.
 
-![**Split-GAL4 lines can be subdivided into four phenotypically similar clusters.** Co-activation of each split-GAL4 line with Basin neurons. (**A**) Dendrogram representing the hierarchical clustering of genotypes based on the *complete linkage* method. (**B**) Distribution of clusters with respect to the first and second pricipal components. (**C**) Standardised crabspeed, (**D**) curvature and (**E**) time-spent rolling for each genotype within their respective clusters. Data is standardised to the control, *attp2;Basin>CsChrimson*, such that positive or negative deflections represent an increase or decrease, respectively, relative to the control. Black horizontal lines indicate the cluster median, vertical lines indicate the upper and lower quartiles. Black scatter outlines highlight genotypes discussed in the following sections. Stimulation irradiance, 600&mu;W/cm^2^.](./Thesis_Figure_Cluster.svg){#fig:A1_1}
+![**Split-GAL4 lines can be subdivided into four phenotypically similar clusters.** Co-activation of each split-GAL4 line with Basin neurons. (**A**) Dendrogram representing the hierarchical clustering of genotypes based on the *complete linkage* method. (**B**) Distribution of clusters with respect to the first and second pricipal components. (**C**) Standardised crabspeed, (**D**) curvature and (**E**) time-spent rolling for each genotype within their respective clusters. Data is standardised to the control, *attp2;Basin>CsChrimson*, such that positive or negative deflections represent an increase or decrease, respectively, relative to the control. Black horizontal lines indicate the cluster median, vertical lines indicate the upper and lower quartiles. Black scatter outlines highlight genotypes discussed in the following sections. Stimulation irradiance, 600&mu;W/cm^2^.](./figures/Thesis_Figure_Cluster.svg){#fig:A1_1}
 
 ### Identification of phenotypically similar split-GAL4 lines
 
@@ -420,7 +420,7 @@ Visualisation of linkages with a dendrogram allowed us to cluster genotypes into
 
 
 
-![**Lines upregulating rolling differ by temporal profile.** Co-activation of groups 2 & 3 with Basin neurons with irradiance 600&mu;W/cm^2^. (**A**) Instantaneous percentage of animals rolling, (**B**) average crabspeed and (**C**) curvature of animals in the second phenotypic group. (**D**) Average time spent rolling, per larva. **E** and **F** show the values of **B** and **C**, respectively, averaged across the duration of stimulation. (**G**) Instantaneous percentage of animals rolling, (**H**) average crabspeed and (**I**) curvature of animals in the third phenotypic group. (**J**) Average time spent rolling, per larva. **K** and **L** show the values of **H** and **I**, respectively, averaged across the duration of stimulation. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./thesis_aim1_2.svg){#fig:A1_2}
+![**Lines upregulating rolling differ by temporal profile.** Co-activation of groups 2 & 3 with Basin neurons with irradiance 600&mu;W/cm^2^. (**A**) Instantaneous percentage of animals rolling, (**B**) average crabspeed and (**C**) curvature of animals in the second phenotypic group. (**D**) Average time spent rolling, per larva. **E** and **F** show the values of **B** and **C**, respectively, averaged across the duration of stimulation. (**G**) Instantaneous percentage of animals rolling, (**H**) average crabspeed and (**I**) curvature of animals in the third phenotypic group. (**J**) Average time spent rolling, per larva. **K** and **L** show the values of **H** and **I**, respectively, averaged across the duration of stimulation. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./figures/thesis_aim1_2.svg){#fig:A1_2}
 
 
 
@@ -440,7 +440,7 @@ Thus, increases in roll duration can independently vary with larval curvature or
 
 Our fourth group (*1951*, *4245*, *4189*) presented a decrease in roll percentage during the late phase of the stimulation bout ([@fig:A1_3a]A), which was reflected by a significant decrease in average time spent rolling for line *1951*, *p* = .007, *r* = .347 ([@fig:A1_3a]D). This was complemented by a decrease in both the curve and crabspeed of the larvae throughout the course of stimulation ([@fig:A1_3a]B,C,E,F). We note that, for this particular group, the average time spent rolling in our controls animals was higher than usual, which may have contributed to the significance of these results.
 
-![**Identification of lines that reduce the presentation of escape behaviours.** Co-activation of group 4 with Basin neurons with irradiance 600&mu;W/cm^2^. (**A**) Instantaneous percentage of animals rolling, (**B**) average crabspeed and (**C**) curvature of animals in the fourth phenotypic group. (**D**) Average time-spent rolling per larva. **E** and **F** show the values of **B** and **C**, respectively, averaged across the duration of stimulation. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./thesis_aim1_3.svg){#fig:A1_3a}
+![**Identification of lines that reduce the presentation of escape behaviours.** Co-activation of group 4 with Basin neurons with irradiance 600&mu;W/cm^2^. (**A**) Instantaneous percentage of animals rolling, (**B**) average crabspeed and (**C**) curvature of animals in the fourth phenotypic group. (**D**) Average time-spent rolling per larva. **E** and **F** show the values of **B** and **C**, respectively, averaged across the duration of stimulation. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./figures/thesis_aim1_3.svg){#fig:A1_3a}
 
 
 
@@ -460,7 +460,7 @@ To test whether these neurons are necessary for nocifensive behaviour, we silenc
 
 Given that the effect of activating or silencing *1816* modulates curvature in opposite directions, the data suggest that the activity of *1816* has an inverse relationship with larval curvature, during nocifensive behaviour. By contrast, *4232* shows pronounced modulation of rolling and crabspeed when ectopically activated, but its endogenous activity is not necessary for normal presentation of escape behaviours.
 
-![**Line *1816* shows activity-dependent modulation of nocifensive posture.** Images of (**A**) *1816>GFP* and (**B**) *4232>GFP*. (**C-E**) Optogenetic coactivation of Basin neurons and split-GAL4 lines with irradiance 100uW/cm^2^. (**C**) The average total duration of rolls per larvae, (**D**) average crabspeed and (**E**) average curvature of larvae during stimulation. (**F-H**) Optogenetic activation of Basin neurons coupled with silencing (TNT) of split-GAL4 lines with irradiance 600uW/cm^2^. Controlled using a null TNT construct (impTNT). (**F**) The average total duration of rolls per larvae, (**G**) average crabspeed and (**H**) average curvature of larvae during stimulation. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_1.svg){#fig:A2_1}
+![**Line *1816* shows activity-dependent modulation of nocifensive posture.** Images of (**A**) *1816>GFP* and (**B**) *4232>GFP*. (**C-E**) Optogenetic coactivation of Basin neurons and split-GAL4 lines with irradiance 100uW/cm^2^. (**C**) The average total duration of rolls per larvae, (**D**) average crabspeed and (**E**) average curvature of larvae during stimulation. (**F-H**) Optogenetic activation of Basin neurons coupled with silencing (TNT) of split-GAL4 lines with irradiance 600uW/cm^2^. Controlled using a null TNT construct (impTNT). (**F**) The average total duration of rolls per larvae, (**G**) average crabspeed and (**H**) average curvature of larvae during stimulation. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./figures/thesis_aim2_1.svg){#fig:A2_1}
 
 
 
@@ -476,7 +476,7 @@ Our data shows that both of the neurons assayed are differentially implicated in
 
 
 
-![**4232 modulates body curvature during basal locomotion.** (**A-C**) Optogenetic activation of  split-GAL4 lines. (**A**) The average crawl amplitude, (**B**) crawl frequnecy and (**C**) curvature of larvae during optogenetic stimulation with irradiance 600&mu;W/cm^2^. (**D-F**) Silencing of split-GAL4 lines with TNT. (**D**) The average crawl amplitude, (**E**) crawl frequnecy and (**F**) curvature of larvae during free exploration. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_2.svg){#fig:A2_2}
+![**4232 modulates body curvature during basal locomotion.** (**A-C**) Optogenetic activation of  split-GAL4 lines. (**A**) The average crawl amplitude, (**B**) crawl frequnecy and (**C**) curvature of larvae during optogenetic stimulation with irradiance 600&mu;W/cm^2^. (**D-F**) Silencing of split-GAL4 lines with TNT. (**D**) The average crawl amplitude, (**E**) crawl frequnecy and (**F**) curvature of larvae during free exploration. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./figures/thesis_aim2_2.svg){#fig:A2_2}
 
 
 
@@ -490,7 +490,7 @@ We searched the [Fly Light Split-GAL4 Driver Collection](https://www.janelia.org
 
 
 
-![**Neurons of the A02 lineage have similar morphology.** Morphology of (**A**) A02e, (**B**) A02f and (**C**) A02g within the first abdominal segment, reconstructed in a TEM volume of the L1 nervous system. Synaptic input, orange; synaptic output, blue. Top panel, transverse view; bottom panel, dorsal view.](./thesis_aim2_3a.svg){#fig:A2_3a}
+![**Neurons of the A02 lineage have similar morphology.** Morphology of (**A**) A02e, (**B**) A02f and (**C**) A02g within the first abdominal segment, reconstructed in a TEM volume of the L1 nervous system. Synaptic input, orange; synaptic output, blue. Top panel, transverse view; bottom panel, dorsal view.](./figures/thesis_aim2_3a.svg){#fig:A2_3a}
 
 A02e makes the majority of its synapses (summarised in [@fig:A2_3b]A) with motor neurons innervating the VL muscles, specifically MN13 (16 per hemisegment, 24.8% of total output), MN30 (12 per hemisegment, 18.6% of total output) and MN12 (8 per hemisegment, 12.4% of total output).  Similarly, A02g predominantly synapses onto motor neurons innervating VL muscles MN13 (16 per hemisegment, 26.2% of total output), MN30 (17 per hemisegment, 27.9% of total output) and MN12 (4.5 per hemisegment, 7.4% of total output).
 
@@ -504,7 +504,7 @@ All 3 neurons also make premotor-to-premotor connections, but those are not repo
 
 
 
-![**A02 neurons innervate different groups of motor neurons.** (**A**) Number of synapses formed from premotor neuron (left) to motor neuron (top), as observed within a single abdominal segment of a TEM volume. Identidy of the muscles anatomically downstream of (**C**) A02e, (**D**) A02f and (**E**) A02g compared to (**B**) reference musculature. Colour indicates the number of (red) contralaterel and (blue) ipsilateral synapses made with the corresponding MN.](./thesis_aim2_3b.svg){#fig:A2_3b}
+![**A02 neurons innervate different groups of motor neurons.** (**A**) Number of synapses formed from premotor neuron (left) to motor neuron (top), as observed within a single abdominal segment of a TEM volume. Identidy of the muscles anatomically downstream of (**C**) A02e, (**D**) A02f and (**E**) A02g compared to (**B**) reference musculature. Colour indicates the number of (red) contralaterel and (blue) ipsilateral synapses made with the corresponding MN.](./figures/thesis_aim2_3b.svg){#fig:A2_3b}
 
 
 
@@ -523,7 +523,7 @@ These results suggest that all the A02 neurons tested are implicated in the perf
 
 
 
-![**A02 neurons differentially modulate escape behaviour.** Optogenetic co-activation of Basin neurons with different A02 neurons with irradiance 100&mu;W/cm^2^. Instantaneous roll proportion for (**A**) A02e, (**B**) A02f and (**C**) A02g. (**D**) Average latency to the first bout of rolling. Average latency to initial rise in (**F**) crabspeed and (**H**) curve. (**E**) The average total duration of rolls per larvae, (**G**) average crabspeed and (**I**) average curvature of larvae during stimulation. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_4.svg){#fig:A2_4}
+![**A02 neurons differentially modulate escape behaviour.** Optogenetic co-activation of Basin neurons with different A02 neurons with irradiance 100&mu;W/cm^2^. Instantaneous roll proportion for (**A**) A02e, (**B**) A02f and (**C**) A02g. (**D**) Average latency to the first bout of rolling. Average latency to initial rise in (**F**) crabspeed and (**H**) curve. (**E**) The average total duration of rolls per larvae, (**G**) average crabspeed and (**I**) average curvature of larvae during stimulation. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./figures/thesis_aim2_4.svg){#fig:A2_4}
 
 
 
@@ -537,7 +537,7 @@ Notably, activation of A02f caused a large and significant increase in curvature
 
 These results suggest that none of the neurons in questions are necessary for the performance of crawling behaviour. The only interesting observation was that ectopic activation of A02f induced curved posture. By extension, this may implicate the endogenous activity of lateral transverse muscles, which are downstream of A02f, as necessary for maintaining left-right symmetry. However, whether this asymmetry reflects discrete unilateral behaviours (e.g. head casting), or just asymmetric gait, is unclear from these analyses. 
 
-![**Endogenous A02 activity is not necessary for basal locomotion.** (**A-C**) Optogenetic activation of A02 neurons with irradiance 600&mu;W/cm^2^. (**A**) The average crawl amplitude, (**B**) crawl frequnecy and (**C**) curvature of larvae during optogenetic stimulation. (**D-F**) Silencing of A02 neurons with TNT. (**D**) The average crawl amplitude, (**E**) crawl frequnecy and (**F**) curvature of larvae during free exploration. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](thesis_aim2_5.svg){#fig:A2_5}
+![**Endogenous A02 activity is not necessary for basal locomotion.** (**A-C**) Optogenetic activation of A02 neurons with irradiance 600&mu;W/cm^2^. (**A**) The average crawl amplitude, (**B**) crawl frequnecy and (**C**) curvature of larvae during optogenetic stimulation. (**D-F**) Silencing of A02 neurons with TNT. (**D**) The average crawl amplitude, (**E**) crawl frequnecy and (**F**) curvature of larvae during free exploration. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./figures/thesis_aim2_5.svg){#fig:A2_5}
 
 
 
@@ -558,7 +558,7 @@ Importantly, we observed an increase in the latency to roll for Salam, *p* < 0.0
 
 
 
-![**A02e phenotype is consistent across classification methods, despite differences in baseline scoring.** (**A-C**) Optogenetic activation of Basin neurons (*Basin>CsChrimson*) with irradiance 100&mu;W/cm^2^. Ethogram indicating bouts of rolling behaviour as scored by the (**A**) Salam, (**B**) JB and (**C**) JAABA pipelines, apposed to bouts of crawling scored by Salam. (**D-F**) Optogenetic co-activation of Basin neurons with A02e (*1816*) or a driver control (*attp2;Basin>CsChrimson*). Instantaneous roll proportion scored by the (**D**) Salam, (**E**) JB and (**F**) JAABA pipelines. (**G**) Latency to roll and (**H**) average time-spent rolling by pipeline. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./thesis_aim1_4.svg){#fig:A1_4}
+![**A02e phenotype is consistent across classification methods, despite differences in baseline scoring.** (**A-C**) Optogenetic activation of Basin neurons (*Basin>CsChrimson*) with irradiance 100&mu;W/cm^2^. Ethogram indicating bouts of rolling behaviour as scored by the (**A**) Salam, (**B**) JB and (**C**) JAABA pipelines, apposed to bouts of crawling scored by Salam. (**D-F**) Optogenetic co-activation of Basin neurons with A02e (*1816*) or a driver control (*attp2;Basin>CsChrimson*). Instantaneous roll proportion scored by the (**D**) Salam, (**E**) JB and (**F**) JAABA pipelines. (**G**) Latency to roll and (**H**) average time-spent rolling by pipeline. Horizontal orange bar, stimulation bout. Error bars, 95% confidence interval. *n*, indicated in plot. \* *p* < 0.05, \** *p* < 0.01, \*** *p* < 0.001.](./figures/thesis_aim1_4.svg){#fig:A1_4}
 
 
 
@@ -572,7 +572,7 @@ When assessing false positives, it is important to note that falsely detected 'r
 
 These results argue that JB offers best trade off for specificity and accuracy against proportion of behaviours detected. Otherwise JAABA offers the greatest absolute scoring of rolling, but at the cost of some specificity and accuracy.
 
-![**Roll classifiers vary in specificity and accuracy.** Optogenetic activation of Basin neurons, only, with irradiance 100&mu;W/cm^2^. (**A**) Average duration of rolls scored per larva, by method of scoring. Bars are split by the duration of overlap with ground truth for C-bend and roll. (**B**) The proportion of overlap for classified rolling behaviours, by pipeline, against ground truth scoring for C-bending, rolling or both (roll & C-bend combined). (**C**) The average duration of false positive rolls scored per larvae for each of the pipelines, as compared against ground truth scoring for rolling or escape behaviour generally (roll & C-bend combined).](./thesis_aim1_5.svg){#fig:A1_5}
+![**Roll classifiers vary in specificity and accuracy.** Optogenetic activation of Basin neurons, only, with irradiance 100&mu;W/cm^2^. (**A**) Average duration of rolls scored per larva, by method of scoring. Bars are split by the duration of overlap with ground truth for C-bend and roll. (**B**) The proportion of overlap for classified rolling behaviours, by pipeline, against ground truth scoring for C-bending, rolling or both (roll & C-bend combined). (**C**) The average duration of false positive rolls scored per larvae for each of the pipelines, as compared against ground truth scoring for rolling or escape behaviour generally (roll & C-bend combined).](./figures/thesis_aim1_5.svg){#fig:A1_5}
 
 
 
@@ -687,13 +687,13 @@ Further, we show that inhibitory premotor neurons upstream of lateral and dorsal
 \renewcommand*{\thefigure}{S\arabic{suppfigure}}
 
 
-![**Relates to [@fig:A2_1].** (**A**) Instantaneous crawl percentage and (**B**) roll percentage, upon Basin activation, at two different light irradiances (100&mu;W/cm^2^ and 600&mu;W/cm^2^). Horizontal orange bar, stimulation bout.](./thesis_supp3.svg){#fig:supp2}
+![**Relates to [@fig:A2_1].** (**A**) Instantaneous crawl percentage and (**B**) roll percentage, upon Basin activation, at two different light irradiances (100&mu;W/cm^2^ and 600&mu;W/cm^2^). Horizontal orange bar, stimulation bout.](./figures/thesis_supp3.svg){#fig:supp2}
 
 \stepcounter{suppfigure}
 
-![**Relates to [@fig:A2_2].** (**A**) Curvature and (**B**) instantaneous crawl percentage of *4232>CsChrimson* compared to a driver control, *attp2>CsChrimson*. Stimulation irradiance, 600&mu;W/cm^2^. Horizontal orange bar, stimulation bout.](./thesis_supp4.svg){#fig:supp3}
+![**Relates to [@fig:A2_2].** (**A**) Curvature and (**B**) instantaneous crawl percentage of *4232>CsChrimson* compared to a driver control, *attp2>CsChrimson*. Stimulation irradiance, 600&mu;W/cm^2^. Horizontal orange bar, stimulation bout.](./figures/thesis_supp4.svg){#fig:supp3}
 
 \stepcounter{suppfigure}
 
-![**Relates to [@fig:A2_5].** (**A**) Curvature and (**B**) instantaneous crawl percentage of *A02f>CsChrimson* compared to a driver control, *attp2>CsChrimson*. Stimulation irradiance, 600&mu;W/cm^2^. Horizontal orange bar, stimulation bout.](./thesis_supp5.svg){#fig:supp4}
+![**Relates to [@fig:A2_5].** (**A**) Curvature and (**B**) instantaneous crawl percentage of *A02f>CsChrimson* compared to a driver control, *attp2>CsChrimson*. Stimulation irradiance, 600&mu;W/cm^2^. Horizontal orange bar, stimulation bout.](./figures/thesis_supp5.svg){#fig:supp4}
 
